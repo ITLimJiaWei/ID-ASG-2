@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .body {
     background-image: url('Images/mandalorian\ bg.jpg');
@@ -6,3 +6,33 @@
     background-attachment: fixed;
      background-size: cover;
 }
+.flexbox {
+    display:flex;
+    flex-direction: row;
+    background-color:white;
+    margin-top:50px;
+    margin-left: 50px;
+    max-width: 1000px;
+}
+
+.introBox {
+    
+    margin-left: 700px;
+    opacity:0.7;
+    position:fixed;
+    display:flex;
+    
+}
+
+.intro {
+    color: black;
+    font-size:23px;
+    font-family:roboto;
+    padding: 20px;
+    max-width:300px;
+}
+
+.carousel {
+    max-width:700px;
+}
+
