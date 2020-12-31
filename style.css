@@ -14,13 +14,18 @@
     margin-top:50px;
     margin-left: 50px;
     max-width: 1100px;
+    border: 12px solid black;
+    
 }
 
 .introBox {
     
     margin-left: 800px;
-    position:fixed;
+    position:absolute;
     display:flex;
+    overflow: hidden;
+    max-width: 300px;
+    
     
 }
 
@@ -35,5 +40,13 @@
 
 .carousel {
     max-width:800px;
+    
+}
+
+.card {
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 12px solid black;
+    
 }
 
