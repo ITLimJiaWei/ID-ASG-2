@@ -4,8 +4,37 @@
     background-image: url('Images/mandalorian\ bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-     background-size: cover;
+    background-size: cover;
 }
+
+.clonewars-body {
+    background-image: url('Images/carousel\ pic2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.rebels-body {
+    background-image: url('Images/rebels\ bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.mandalorian-body {
+    background-image: url('Images/mandalorian\ bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.game-body {
+    background-image: url('Images/game\ bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .flexbox {
     display:flex;
     flex-direction: row;
