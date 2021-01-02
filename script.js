@@ -1,10 +1,11 @@
+var input = "people/3/"
+document.getElementById("btn").addEventListener("click",getpeople(input));
 
-document.getElementById("btn").addEventListener("click",getpeople);
 
-
-function getpeople() {
+function getpeople(input) {
+    
     var settings = {
-        "url": "https://swapi.dev/api/people/1/",
+        "url": "https://swapi.dev/api/" + input,
         "method": "GET",
         "timeout": 0,
       };
@@ -12,10 +13,10 @@ function getpeople() {
       $.ajax(settings).done(function (response) {
         console.log(response);
     
-        
+        var name = document.getElementById("test").innerHTML = response.name;
       });
 
-      var name = document.getElementById("test").innerHTML = response[0].name ;
+      
 }
 
 
