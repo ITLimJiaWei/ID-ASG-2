@@ -35,6 +35,13 @@
     background-size: cover;
 }
 
+.films-body {
+    background-image: url('Images/films\ bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .flexbox {
     display:flex;
     flex-direction: row;
