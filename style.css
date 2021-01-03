@@ -16,7 +16,7 @@
 }
 
 .mandalorian-body {
-    background-image: url('Images/mandalorian\ bg.jpg');
+    background-image: url('Images/carousel\ pic1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -96,7 +96,8 @@
     
 }
 
-.clonewars-title {
+.clonewars-title,
+.mandalorian-title {
     margin-left:50px;
     margin-top:20px;
     margin-bottom:-40px;
@@ -133,5 +134,43 @@
     font-size:27px;
     font-family: Roboto;
     max-width:350px;
+}
+
+.mandalorian-video {
+    margin:50px;
+    margin-left:50px;
+    border:solid 8px rgb(0, 0, 0);
+    overflow:hidden;
+}
+
+.mandalorian-flexbox1 {
+    display:flex;
+    flex-direction:row-reverse;
+}
+
+.mandalorian-flexbox1-inner {
+    display:flex;
+    flex-direction:column;
+    background-color:black;
+    margin:50px;
+    min-width:400px;
+    max-height:550px;
+    margin-right:-50px;
+}
+
+.mandalorian-logo {
+    max-width:400px;
+    max-height:200px;
+    margin-top:50px;
+    margin-right:-50px;
     
+}
+
+.mandalorian-intro {
+    max-width:300px;
+    background-color:black;
+    color:white;
+    margin-top:-100px;
+    margin:20px;
+    font-size:20px;
 }
