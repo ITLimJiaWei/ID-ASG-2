@@ -170,7 +170,11 @@
     max-width:300px;
     background-color:black;
     color:white;
-    margin-top:-100px;
-    margin:20px;
-    font-size:20px;
+    margin-left:50px;
+    font-size:22px;
+    text-align:left;
+}
+
+.baby-yoda-picture {
+    max-width:250px;
 }
