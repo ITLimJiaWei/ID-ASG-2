@@ -1,4 +1,4 @@
-var input = "people/3/"
+var input = "people/1/"
 document.getElementById("btn").addEventListener("click",getpeople(input));
 
 
