@@ -1,11 +1,13 @@
 <h1>Star Wars Wiki/SWiki</h1>
 
-Name:Lim Jia Wei<br>
-Class:P01<br>
-ID:10204971J<br>
+Name: Lim Jia Wei<br>
+Class: P01<br>
+ID: 10204971J<br>
 Website URL: https://itlimjiawei.github.io/Repository-2-/index.html<br>
 
-This project is a Star Wars themed wiki website. It includes a home page, films page, video games page and 2 TV Series pages. The website allows anyone to find out information about the events and characters in the Star Wars Universe.
+This project is a Star Wars themed wiki website. It includes a home page, films page, video games page and 3 TV Series pages. The website allows anyone to find out information about the events and characters in the Star Wars Universe. 
+
+UPDATE: Removed one of the 3 TV Series pages due to it being too repetitive and similar with another TV Series page.
 
 <h2>Design Process</h2>
 
@@ -15,7 +17,23 @@ During the development of my website, I tried to understand what users who would
 
 2. As someone who is new to Star Wars, I would wish for a simplistic web design so I am able to grasp what is trending at the moment but also for a way to research the lore and history of older characters so I am not missing out on anything. 
 
-Judging from these views, my website should be kept up to date, contain past history of Star Wars characters and have a simplitic and intuitive design. I also intend to make SWiki both desktop and mobile friendly. 
+Judging from these views, my website should be kept up to date, contain past history of Star Wars characters and have a simplitic and intuitive design. I also intend to make SWiki both desktop and mobile friendly. I have created wireframes for both Desktop and Mobile views for an optimal experience
+
+UPDATE: 28/12/2020: I decided to include images representaing old Star Wars characters and also new ones to appeal to a wider audience.
+
+UPDATE: 4/1/2021: I made large changes to the wireframes for the website such as swapping out static images with video embeds and changing stale paragraphs of text with accordions using Bootstrap v5.0's Accordion Component.
+
+
+
+
+
+
+<h2>Features</h2>
+
+Since SWiki's main goal is to provide information about Star Wars i implemented several features to guarantee that the navigation is intuitive and the experience is memorably good.
+
+1. Utilizing Bootstrap v5.0's Card Component while also utilizing my own CSS to modify it. I found these "Cards" extremely useful in showcasing certain characters in a simplistic form as they are already mostly responsive and also include a space for the description of said character.
+2. 
 
 
 
@@ -29,10 +47,9 @@ Judging from these views, my website should be kept up to date, contain past his
 
 
 
+<h2>Media</h2>
 
-<h2>MEDIA</h2>
-
-https://goggler.my/the-mandalorian-season-2-episode-2-recap-chapter-10-the-passenger/
+https://goggler.my/the-mandalorian-season-2-episode-2-recap-chapter-10-the-passenger/ 
 https://www.starwars.com/news/star-wars-the-clone-wars-final-season
 https://dansmediadigest.co.uk/star-wars-the-rise-of-skywalker-sleepwalks-to-the-sci-fantasy-sagas-end-93a60d9e9a81?gi=b5555532bcf7
 
@@ -54,6 +71,8 @@ https://www.wikidata.org/wiki/Q55449345
 https://www.vulture.com/article/the-mandalorian-season-2-temuera-morrison-boba-fett-jango-fett.html
 https://www.syfy.com/syfywire/the-mandalorian-season-2-finale-darksaber-star-wars-future
 https://commons.wikimedia.org/wiki/File:Logo_Star_Wars_Battlefront_II_(2017)_schwarz.svg
+
+<h2>Links</h2>
 
 Github Site Link: https://itlimjiawei.github.io/Repository-2-/
 
