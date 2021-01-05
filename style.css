@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* START OF CSS for all backgrounds for different pages  */
 
 .body {
     background-image: url('Images/mandalorian\ bg.jpg');
@@ -35,6 +36,10 @@
     background-attachment: fixed;
     background-size: cover;
 }
+
+/* END OF CSS for all backgrounds for different pages  */
+
+/* START of Home Page CSS */
 
 .flexbox {
     display:flex;
@@ -96,6 +101,10 @@
     
 }
 
+/* END of Home Page CSS */
+
+/* START of Clone Wars Page CSS */
+
 .clonewars-title,
 .mandalorian-title {
     margin-left:50px;
@@ -127,14 +136,16 @@
     margin-left:-50px;
 }
 
-
-
 .clonewars-intro-content {
     margin:20px;
     font-size:27px;
     font-family: Roboto;
     max-width:350px;
 }
+
+/* END of Clone Wars Page CSS */
+
+/* START of Mandalorian Page CSS */
 
 .mandalorian-video {
     margin:50px;
@@ -195,4 +206,15 @@
 .mandalorian-flexbox3 {
     display:flex;
     flex-direction:row;
+}
+
+/* END of Mandalorian Page CSS */
+
+/* START of Video Games Page CSS */
+
+
+.game-flexbox1 { 
+    display:flex;
+    flex-direction:row;
+    margin:50px;
 }
