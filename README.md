@@ -94,6 +94,10 @@ https://www.vulture.com/article/the-mandalorian-season-2-temuera-morrison-boba-f
 https://www.syfy.com/syfywire/the-mandalorian-season-2-finale-darksaber-star-wars-future
 https://commons.wikimedia.org/wiki/File:Logo_Star_Wars_Battlefront_II_(2017)_schwarz.svg
 
+https://www.ea.com/games/starwars/battlefront/star-wars-battlefront-2
+https://www.nme.com/news/gaming-news/ea-confirms-star-wars-jedi-fallen-order-kicks-off-a-new-franchise-2662128
+https://gadgets.ndtv.com/games/features/star-wars-jedi-fallen-order-game-gameplay-trailer-cast-trainer-xbox-one-2135578
+
 <h2>Links</h2>
 
 Github Site Link: https://itlimjiawei.github.io/Repository-2-/
