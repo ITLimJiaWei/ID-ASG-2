@@ -9,15 +9,12 @@ This project is a Star Wars themed wiki website. It includes a home page, films 
 
 <h2>Update Table</h2>
 
-Date | Description                                             | Status
+Date        | Description                                             | Status
 ----------- | ------------------------------------------------------  | ------
 28/12/2020  | Swapped out static images with video embed in wireframe |  Done 
 28/12/2020  | Swapped out static text with accordions using Bootstrap |  Done 
 31/12/2020  | Removed Star Wars: Rebels Page                          |  Done 
 
-
-
-UPDATE: Removed one of the 3 TV Series pages due to it being too repetitive and similar with another TV Series page.
 
 <h2>Design Process</h2>
 
@@ -31,11 +28,10 @@ Judging from these views, my website should be kept up to date, contain past his
 
 I was sure to keep my code well documented, especially my style.css file because it is quite lengthy and contains all the CSS for every page in SWiki. This is so if anyone else were to view my work, they would be able to understand the purpose of that section of code easily.
 
-UPDATE: 28/12/2020: I decided to include images representaing old Star Wars characters and also new ones to appeal to a wider audience.
 
 UPDATE: 4/1/2021: I made large changes to the wireframes for the website such as swapping out static images with video embeds and changing stale paragraphs of text with accordions using Bootstrap v5.0's Accordion Component.
 
-
+Adobe XD Destop: 
 
 
 
@@ -72,11 +68,11 @@ The API i chose to use, SWAPI stated in its documentation that it has a limit of
 
 <h3>Media</h3>
 
-https://goggler.my/the-mandalorian-season-2-episode-2-recap-chapter-10-the-passenger/ 
-https://www.starwars.com/news/star-wars-the-clone-wars-final-season
-https://dansmediadigest.co.uk/star-wars-the-rise-of-skywalker-sleepwalks-to-the-sci-fantasy-sagas-end-93a60d9e9a81?gi=b5555532bcf7
+*https://goggler.my/the-mandalorian-season-2-episode-2-recap-chapter-10-the-passenger/ 
+*https://www.starwars.com/news/star-wars-the-clone-wars-final-season
+*https://dansmediadigest.co.uk/star-wars-the-rise-of-skywalker-sleepwalks-to-the-sci-fantasy-sagas-end-93a60d9e9a81?gi=b5555532bcf7<br>
 
-https://en.wikipedia.org/wiki/List_of_Star_Wars_characters
+*https://en.wikipedia.org/wiki/List_of_Star_Wars_characters
 https://en.wikipedia.org/wiki/George_Lucas#2012%E2%80%93present:_Semi-retirement
 https://wallpaperaccess.com/imperial-star-destroyer
 https://hdqwalls.com/star-wars-jedi-fallen-order-5k-2020-wallpaper
@@ -97,8 +93,8 @@ https://commons.wikimedia.org/wiki/File:Logo_Star_Wars_Battlefront_II_(2017)_sch
 
 
 https://www.nme.com/news/gaming-news/ea-confirms-star-wars-jedi-fallen-order-kicks-off-a-new-franchise-2662128
-https://gadgets.ndtv.com/games/features/star-wars-jedi-fallen-order-game-gameplay-trailer-cast-trainer-xbox-one-2135578
 https://www.pcgamesn.com/star-wars-jedi-fallen-order/tomb-of-eilram-sphere-walkthrough
+https://www.usgamer.net/articles/jedi-fallen-orders-intro-beautifully-captures-one-of-star-wars-defining-traits
 
 <h2>Links</h2>
 
