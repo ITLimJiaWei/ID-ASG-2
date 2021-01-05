@@ -1,9 +1,14 @@
+<h1>Star Wars Wiki/SWiki</h1>
 
+<h2>Design Process</h2>
 
+During the development of my website, I tried to understand what users who would visit my website expect and what they wish for. Below are two varying perspectives of certain users who would visit Star Wars Wiki.
 
+1. As a Star Wars fan, I would expect to see many of my favourite Star Wars characters and also up to date information such as Mandalorian Season 2 which was aired in November 2020. I would also want to be able to search for any of the characters even the ones that were introduced decades ago.
 
+2. As someone who is new to Star Wars, I would wish for a simplistic web design so I am able to grasp what is trending at the moment but also for a way to research the lore and history of older characters so I am not missing out on anything. 
 
-
+Judging from these views, my website should be kept up to date, contain past history of Star Wars characters and have a simplitic and intuitive design. I also intend to make SWiki both desktop and mobile friendly.
 
 
 
@@ -41,5 +46,8 @@ https://www.vulture.com/article/the-mandalorian-season-2-temuera-morrison-boba-f
 https://www.syfy.com/syfywire/the-mandalorian-season-2-finale-darksaber-star-wars-future
 https://commons.wikimedia.org/wiki/File:Logo_Star_Wars_Battlefront_II_(2017)_schwarz.svg
 
-Github Site Link
-https://itlimjiawei.github.io/Repository-2-/
+Github Site Link: https://itlimjiawei.github.io/Repository-2-/
+
+<h2>Acknowledgements</h2>
+
+1. Lee Wen Kang , Y1 IT Student and Friend: He helped me out with some of my enquiries on the assignment and also assisted me in testing the API i had chosen as I had quite a bit of trouble getting it to work initially.
