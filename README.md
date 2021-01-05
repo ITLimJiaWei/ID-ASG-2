@@ -9,7 +9,7 @@ This project is a Star Wars themed wiki website. It includes a home page, films 
 
 <h2>Update Table</h2>
 | Date        | Description                                             | Status |
-| ----------- |:------------------------------------------------------: | ------:|
+| ----------- | ------------------------------------------------------  | ------ |
 | 28/12/2020  | Swapped out static images with video embed in wireframe |  Done  |
 | 28/12/2020  | Swapped out static text with accordions using Bootstrap |  Done  |
 | 31/12/2020  | Removed Star Wars: Rebels Page                          |  Done  |
@@ -94,9 +94,10 @@ https://www.vulture.com/article/the-mandalorian-season-2-temuera-morrison-boba-f
 https://www.syfy.com/syfywire/the-mandalorian-season-2-finale-darksaber-star-wars-future
 https://commons.wikimedia.org/wiki/File:Logo_Star_Wars_Battlefront_II_(2017)_schwarz.svg
 
-https://www.ea.com/games/starwars/battlefront/star-wars-battlefront-2
+
 https://www.nme.com/news/gaming-news/ea-confirms-star-wars-jedi-fallen-order-kicks-off-a-new-franchise-2662128
 https://gadgets.ndtv.com/games/features/star-wars-jedi-fallen-order-game-gameplay-trailer-cast-trainer-xbox-one-2135578
+https://www.pcgamesn.com/star-wars-jedi-fallen-order/tomb-of-eilram-sphere-walkthrough
 
 <h2>Links</h2>
 
