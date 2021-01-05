@@ -7,6 +7,15 @@ Website URL: https://itlimjiawei.github.io/Repository-2-/index.html<br>
 
 This project is a Star Wars themed wiki website. It includes a home page, films page, video games page and 3 TV Series pages. The website allows anyone to find out information about the events and characters in the Star Wars Universe. 
 
+<h2>Update Table<h2>
+| Date        | Description                                             | Status |
+| ----------- |:------------------------------------------------------: | ------:|
+| 28/12/2020  | Swapped out static images with video embed in wireframe |  Done  |
+| 28/12/2020  | Swapped out static text with accordions using Bootstrap |  Done  |
+| 31/12/2020  | Removed Star Wars: Rebels Page                          |  Done  |
+
+
+
 UPDATE: Removed one of the 3 TV Series pages due to it being too repetitive and similar with another TV Series page.
 
 <h2>Design Process</h2>
@@ -35,19 +44,30 @@ Since SWiki's main goal is to provide information about Star Wars i implemented 
 1. Utilizing Bootstrap v5.0's Card Component while also utilizing my own CSS to modify it. I found these "Cards" extremely useful in showcasing certain characters in a simplistic form as they are already mostly responsive and also include a space for the description of said character.
 2. Search function that allows users to input the name of any Star Wars character found in SWAPI and retrieve specfic details about them such as which films they appeared in or simply their height and weight.
 
+<h2>Testing</h2>
+Testing is very important in programming and is especially imperative in front web development because any bugs will be extremely obvious and annoying to any user visiting the website.
+
+<h3>Online Validators</h3>
 
 
 
 
+<h3>Devices and Resolutions Used</h3>
+
+
+<h3>Browsers Used<h3>
+
+
+<h3>Possible Problems</h3>
+
+The API i chose to use, SWAPI stated in its documentation that it has a limit of 10,000 requests a day. Though it is unlikely to hit this high limit, it should be kept in mind.
 
 
 
 
+<h2>Credits<h2>
 
-
-
-
-<h2>Media</h2>
+<h3>Media</h3>
 
 https://goggler.my/the-mandalorian-season-2-episode-2-recap-chapter-10-the-passenger/ 
 https://www.starwars.com/news/star-wars-the-clone-wars-final-season
