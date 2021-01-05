@@ -7,7 +7,7 @@ Website URL: https://itlimjiawei.github.io/Repository-2-/index.html<br>
 
 This project is a Star Wars themed wiki website. It includes a home page, films page, video games page and 3 TV Series pages. The website allows anyone to find out information about the events and characters in the Star Wars Universe. 
 
-<h2>Update Table<h2>
+<h2>Update Table</h2>
 | Date        | Description                                             | Status |
 | ----------- |:------------------------------------------------------: | ------:|
 | 28/12/2020  | Swapped out static images with video embed in wireframe |  Done  |
