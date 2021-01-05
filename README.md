@@ -8,7 +8,9 @@ During the development of my website, I tried to understand what users who would
 
 2. As someone who is new to Star Wars, I would wish for a simplistic web design so I am able to grasp what is trending at the moment but also for a way to research the lore and history of older characters so I am not missing out on anything. 
 
-Judging from these views, my website should be kept up to date, contain past history of Star Wars characters and have a simplitic and intuitive design. I also intend to make SWiki both desktop and mobile friendly.
+Judging from these views, my website should be kept up to date, contain past history of Star Wars characters and have a simplitic and intuitive design. I also intend to make SWiki both desktop and mobile friendly. 
+
+
 
 
 
