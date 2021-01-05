@@ -1,5 +1,10 @@
 <h1>Star Wars Wiki/SWiki</h1>
 
+Name:Lim Jia Wei
+Class:P01
+ID:10204971J
+Website URL: https://itlimjiawei.github.io/Repository-2-/index.html
+
 <h2>Design Process</h2>
 
 During the development of my website, I tried to understand what users who would visit my website expect and what they wish for. Below are two varying perspectives of certain users who would visit Star Wars Wiki.
@@ -23,7 +28,7 @@ Judging from these views, my website should be kept up to date, contain past his
 
 
 
-LINKS
+<h2>MEDIA</h2>
 
 https://goggler.my/the-mandalorian-season-2-episode-2-recap-chapter-10-the-passenger/
 https://www.starwars.com/news/star-wars-the-clone-wars-final-season
