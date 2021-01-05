@@ -33,7 +33,7 @@ UPDATE: 4/1/2021: I made large changes to the wireframes for the website such as
 Since SWiki's main goal is to provide information about Star Wars i implemented several features to guarantee that the navigation is intuitive and the experience is memorably good.
 
 1. Utilizing Bootstrap v5.0's Card Component while also utilizing my own CSS to modify it. I found these "Cards" extremely useful in showcasing certain characters in a simplistic form as they are already mostly responsive and also include a space for the description of said character.
-2. 
+2. Search function that allows users to input the name of any Star Wars character found in SWAPI and retrieve specfic details about them such as which films they appeared in or simply their height and weight.
 
 
 
