@@ -1,8 +1,8 @@
 <h1>Star Wars Wiki/SWiki</h1>
 
-Name:Lim Jia Wei
-Class:P01
-ID:10204971J
+Name:Lim Jia Wei<br>
+Class:P01<br>
+ID:10204971J<br>
 Website URL: https://itlimjiawei.github.io/Repository-2-/index.html<br>
 
 This project is a Star Wars themed wiki website. It includes a home page, films page, video games page and 2 TV Series pages. The website allows anyone to find out information about the events and characters in the Star Wars Universe.
