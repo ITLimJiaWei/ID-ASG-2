@@ -191,3 +191,8 @@
     display:flex;
     flex-direction:column
 }
+
+.mandalorian-flexbox3 {
+    display:flex;
+    flex-direction:row;
+}
