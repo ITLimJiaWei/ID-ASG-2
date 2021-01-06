@@ -55,6 +55,10 @@ Testing is very important in programming and is especially imperative in front w
 
 <h3>Devices and Resolutions Used</h3>
 
+* Dell XPS 13 9300 (1920x1080)
+* Dell XPS 13 9300 (1920x1200)
+* Samsung Galaxy Note 9 (2220x1080)
+
 
 <h3>Browsers Used<h3>
 
