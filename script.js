@@ -28,6 +28,36 @@ function getpeople(input) {
     
 }
 
+document.getElementById("btn2").addEventListener("click",function(event) {event.preventDefault(); button2()});
+
+function button2() {
+    var input = document.getElementById("starship-input").value;
+    getstarship(input);
+    
+}
+
+
+function getstarship(input) {
+    
+    var settings = {
+        "url": "https://swapi.dev/api/starships/?search="+input,
+        "method": "GET",
+        "timeout": 0,
+      };
+      
+      $.ajax(settings).done(function (response) {
+        console.log(response);
+
+        var model = document.getElementById("model").innerHTML = response.results[0].model;
+        var manufacturer = document.getElementById("manufacturer").innerHTML = response.results[0].manufacturer;
+        var manufacturer = document.getElementById("cost").innerHTML = response.results[0].cost_in_credits+"Credits";
+        var crew = document.getElementById("crew").innerHTML = response.results[0].crew;
+        var hyperdrive = document.getElementById("hyperdrive").innerHTML = response.results[0].hyperdrive_rating;
+
+      });
+    
+}
+
 
 
 
