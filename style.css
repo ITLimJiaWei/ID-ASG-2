@@ -101,9 +101,9 @@
     
 }
 
-.flexbox2 {
+.flexbox3 {
     display:flex;
-    flex-direction:row;
+    flex-direction:row-reverse;
 }
 
 .search-intro {
@@ -111,12 +111,16 @@
     font-size:25px;
     max-width:500px;
     margin-top:50px;
+    background-color:rgb(61, 60, 60);
+    border:solid 6px black;
+    max-height:250px;
+    padding:px;
 }
 
 .search-title {
     margin-left:60px;
     margin-bottom:-50px;
-    background-color:
+    
     color:white;
 }
 
