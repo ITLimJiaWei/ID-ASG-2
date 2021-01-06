@@ -72,6 +72,16 @@ The API i chose to use, SWAPI stated in its documentation that it has a limit of
 
 <h2>Credits<h2>
 
+<h3>Technologies Used</h3>
+
+* HTML 
+* CSS
+* Javascript
+
+<h3>APIs Used</h3>
+
+* SWAPI - https://swapi.dev/
+
 <h3>Media</h3>
 
 * https://goggler.my/the-mandalorian-season-2-episode-2-recap-chapter-10-the-passenger/ 
@@ -97,6 +107,7 @@ The API i chose to use, SWAPI stated in its documentation that it has a limit of
 * https://www.nme.com/news/gaming-news/ea-confirms-star-wars-jedi-fallen-order-kicks-off-a-new-franchise-2662128<br>
 * https://www.pcgamesn.com/star-wars-jedi-fallen-order/tomb-of-eilram-sphere-walkthrough
 * https://www.usgamer.net/articles/jedi-fallen-orders-intro-beautifully-captures-one-of-star-wars-defining-traits<br>
+* https://www.pcgamer.com/star-wars-jedi-fallen-order-just-got-a-new-arena-combat-mode/
 
 <h2>Links</h2>
 
@@ -104,6 +115,6 @@ Github Site Link: https://itlimjiawei.github.io/Repository-2-/
 
 <h2>Acknowledgements</h2>
 
-1. Lee Wen Kang , Y1 IT Student and Friend: He helped me out with some of my enquiries on the assignment and also assisted me in testing the API i had chosen as I had quite a bit of trouble getting it to work initially.
+1. Lee Wen Kang , Y1 IT Student and good friend: He helped me out with some of my enquiries on the assignment and also assisted me in testing the API i had chosen as I had quite a bit of trouble getting it to work initially.
 
 2. Parts of this website was inspired by https://starwars.fandom.com/wiki/Main_Page
