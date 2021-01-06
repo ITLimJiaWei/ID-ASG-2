@@ -101,6 +101,45 @@
     
 }
 
+.flexbox2 {
+    display:flex;
+    flex-direction:row;
+}
+
+.search-intro {
+    color:white;
+    font-size:25px;
+    max-width:500px;
+    margin-top:50px;
+}
+
+.search-title {
+    margin-left:60px;
+    margin-bottom:-50px;
+    background-color:
+    color:white;
+}
+
+.search-flexbox1 {
+    margin:50px;
+    border:solid 6px black;
+    padding:10px;
+    max-width:500px;
+    background-color:rgb(61, 60, 60);
+}
+
+.search-innerflexbox-1,
+.search-innerflexbox-2,
+.search-innerflexbox-3 {
+    display:flex;
+    flex-direction:row;
+}
+
+.input,
+.submit-btn {
+    min-height:35px;
+}
+
 /* END of Home Page CSS */
 
 /* START of Clone Wars Page CSS */
