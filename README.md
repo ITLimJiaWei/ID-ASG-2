@@ -13,8 +13,8 @@ Date        | Description                                             | Status
 ----------- | ------------------------------------------------------  | ------
 28/12/2020  | Swapped out static images with video embed in wireframe |  Done 
 28/12/2020  | Swapped out static text with accordions using Bootstrap |  Done 
-31/12/2020  | Removed Star Wars: Rebels Page                          |  Done 
-
+31/12/2020  | Removed Star Wars: Rebels Page (Too Repetitive)         |  Done 
+06/01/2021  | Added Character Search Function in index.html           |  Done
 
 <h2>Design Process</h2>
 
@@ -79,7 +79,7 @@ The API i chose to use, SWAPI stated in its documentation that it has a limit of
 * https://hdqwalls.com/star-wars-jedi-fallen-order-5k-2020-wallpaper
 * https://www.hdwallpapers.in/star_wars_darth_vader_solo_4k_hd-wallpapers.html
 * https://www.youtube.com/watch?v=ZLW2jkd6E7g
-* https://www.starwars.com/news/how-star-wars-the-clone-wars-further-explored-the-journey-of-anakin-skywalker<br>
+* https://www.starwars.com/news/how-star-wars-the-clone-wars-further-explored-the-journey-of-anakin-skywalker
 * https://www.denofgeek.com/tv/star-wars-the-bad-batch-trailer-breakdown-spoilers/
 * https://www.youtube.com/watch?app=desktop&v=O8cKp6QexD4
 * https://www.cbr.com/wars-solves-revenge-of-the-sith-mystery/
@@ -101,3 +101,5 @@ Github Site Link: https://itlimjiawei.github.io/Repository-2-/
 <h2>Acknowledgements</h2>
 
 1. Lee Wen Kang , Y1 IT Student and Friend: He helped me out with some of my enquiries on the assignment and also assisted me in testing the API i had chosen as I had quite a bit of trouble getting it to work initially.
+
+2. Parts of this website was inspired by https://starwars.fandom.com/wiki/Main_Page
