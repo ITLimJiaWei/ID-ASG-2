@@ -201,7 +201,15 @@
       <h2 class="search-title">SWiki Search!</h2>
 
       <div class="flexbox3">
+
+        <p class="search-intro">
+          Swiki Search uses SWAPI to retrieve specific details of many Star Wars characters and star ships
+          just by entering their name! Information such as name, birth year or even hyperdrive class will be 
+          easily accessible.(Give Luke Skywalker or X-Wing a shot)
+        </p>
+
         <div class="search-flexbox1">
+          <div style="color:white;font-size:25px;margin-bottom:5px;">Character Search</div>
           <form>
             <input style="font-size:20px;"class ="input"type="text" id="name-input" value="" name="name-input">
             <input class ="submit-btn"id="btn"type="submit" value="Submit">
@@ -231,14 +239,45 @@
             <p id='birth-year' style="color:white;font-size:25px;"></p>
             
           </div>
+        
+        </div>
+
+      
+
+        <div class="search-flexbox1">
+          <div style="color:white;font-size:25px;margin-bottom:5px;min-width:600px;">Starship Search</div>
+          <form> 
+            <input style="font-size:20px;min-width:300px;"class ="input2"type="text" id="starship-input" value="" name="starship-input">
+            <input style="min-height:35px;"class ="submit-btn2"id="btn2"type="submit" value="Submit">
+          </form>
+          <div class="search-innerflexbox-1">
+            <div style="color:white;font-size:25px;">Model:</div>
+            <p id='model' style="color:white;font-size:25px;"></p>
+            
+          </div>
+          <div class="search-innerflexbox-2">
+            <div style="color:white;font-size:25px;">Manufacturer:</div>
+            <p id='manufacturer' style="color:white;font-size:25px;"></p>
+            
+          </div>
+          <div class="search-innerflexbox-3">
+            <div style="color:white;font-size:25px;">Cost:</div>
+            <p id='cost' style="color:white;font-size:25px;"></p>
+            
+          </div>
+          <div class="search-innerflexbox-3">
+            <div style="color:white;font-size:25px;">Crew:</div>
+            <p id='crew' style="color:white;font-size:25px;"></p>
+            
+          </div>
+          <div class="search-innerflexbox-3">
+            <div style="color:white;font-size:25px;">Hyperdrive Class:</div>
+            <p id='hyperdrive' style="color:white;font-size:25px;"></p>
+            
+          </div>
             
   
         </div>
-
-        <p class="search-intro">
-          Swiki Search uses SWAPI to retrieve specific details of many Star Wars Characters just by 
-          entering their name!
-        </p>
 
       </div>
       
