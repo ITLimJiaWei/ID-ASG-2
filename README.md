@@ -67,7 +67,8 @@ Testing is very important in programming and is especially imperative in front w
 
 <h3>Possible Problems</h3>
 
-The API i chose to use, SWAPI stated in its documentation that it has a limit of 10,000 requests a day. Though it is unlikely to hit this high limit, it should be kept in mind.
+1. The API i chose to use, SWAPI stated in its documentation that it has a limit of 10,000 requests a day. Though it is unlikely to hit this high limit, it should be kept in mind.
+2. Search Function was tested to work but may have inconsistent delays from pressing "Submit" to the information appearing.
 
 
 
