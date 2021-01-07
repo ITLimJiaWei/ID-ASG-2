@@ -262,9 +262,63 @@
     display:flex;
     flex-direction:row;
     margin:50px;
+    max-width:1300px;
     
 }
 
 .videogame-logo-1 {
-    max-width:400px;
+    max-width:300px;
+    max-height:200px;
+    margin-left:30px;
+    
 }
+
+.game-innerflexbox-1 {
+    display:flex;
+    flex-direction:column;
+    background-color:white;
+    max-width:400px;
+    padding:10px;
+    border:solid 10px black;
+    
+}
+
+.game-intro {
+    padding:10px;
+    font-family:roboto;
+    font-size:24px;
+}
+
+.game-flexbox2 {
+    display:flex;
+    flex-direction:row;
+    
+}
+
+.game-innerflexbox2-1{
+    display:flex;
+    flex-direction:column;
+    margin:50px;
+    margin-left:200px;
+    color:white;
+}
+
+.game-innerflexbox2-2 {
+    display:flex;
+    flex-direction:column;
+    margin:50px;
+    margin-left:200px;
+    color:white;
+}
+
+.game-innerflexbox2-3 {
+    display:flex;
+    flex-direction:column;
+    margin:50px;
+    margin-left:200px;
+    color:white;
+}
+
+
+
+
