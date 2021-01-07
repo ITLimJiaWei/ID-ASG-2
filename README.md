@@ -14,7 +14,9 @@ Date        | Description                                             | Status
 28/12/2020  | Swapped out static images with video embed in wireframe |  Done 
 28/12/2020  | Swapped out static text with accordions using Bootstrap |  Done 
 31/12/2020  | Removed Star Wars: Rebels Page (Too Repetitive)         |  Done 
-06/01/2021  | Added Character Search Function in index.html           |  Done
+06/01/2021  | Added Character/Starship Search Function in index.html  |  Done
+07/01/2021  | Finalised 90% Of SWiki Design/Functionality             |  Done
+07/01/2021  | Added Planet/Species Search Function in games.html      |  Done
 
 <h2>Design Process</h2>
 
@@ -109,6 +111,8 @@ The API i chose to use, SWAPI stated in its documentation that it has a limit of
 * https://www.usgamer.net/articles/jedi-fallen-orders-intro-beautifully-captures-one-of-star-wars-defining-traits<br>
 * https://www.pcgamer.com/star-wars-jedi-fallen-order-just-got-a-new-arena-combat-mode/
 * https://www.starwars.com/news/5-symbols-in-the-star-wars-universe
+* https://screenrant.com/star-wars-revenge-of-the-sith-greatest-moments/
+* https://free4kwallpapers.com/skywalker-wallpapers
 
 
 <h2>Links</h2>
