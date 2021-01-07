@@ -109,6 +109,7 @@ The API i chose to use, SWAPI stated in its documentation that it has a limit of
 * https://www.usgamer.net/articles/jedi-fallen-orders-intro-beautifully-captures-one-of-star-wars-defining-traits<br>
 * https://www.pcgamer.com/star-wars-jedi-fallen-order-just-got-a-new-arena-combat-mode/
 
+
 <h2>Links</h2>
 
 Github Site Link: https://itlimjiawei.github.io/Repository-2-/
@@ -117,4 +118,4 @@ Github Site Link: https://itlimjiawei.github.io/Repository-2-/
 
 1. Lee Wen Kang , Y1 IT Student and good friend: He helped me out with some of my enquiries on the assignment and also assisted me in testing the API i had chosen as I had quite a bit of trouble getting it to work initially.
 
-2. Parts of this website was inspired by https://starwars.fandom.com/wiki/Main_Page
+2. Parts of this website were inspired by https://starwars.fandom.com/wiki/Main_Page
