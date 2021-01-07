@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 
 /* START OF CSS for all backgrounds for different pages  */
 
@@ -382,7 +383,7 @@
     color:white;
     padding:10px;
     max-width:400px;
-    font-size:20px;
+    font-size:24px;
     background-color:rgb(61, 60, 60);
     border:5px solid black;
     margin-left:45px;
@@ -417,3 +418,68 @@
     
 }
 
+/* END of Video Games Page CSS */
+
+/* START of Films Page CSS */
+
+.films-heading {
+    color:white;
+    margin:30px;
+    text-align:center;
+}
+
+.films-flexbox1 {
+    display:flex;
+    flex-direction:row;
+}
+
+.films-picture1 {
+    max-width:900px;
+    border:10px solid black;
+    margin:50px;
+}
+
+.films-innerflexbox1 {
+    display:flex;
+    flex-direction: column;
+}
+
+.films-intro1 {
+    color:white;
+    max-width:350px;
+    font-size:23px;
+    font-family:roboto;
+}
+
+.film-divider1 {
+    background-color:rgb(61, 60, 60);
+    font-family:roboto slab;
+    font-size:45px;
+    text-align:center;
+    color:white;
+}
+
+.films-flexbox2 {
+    display:flex;
+    flex-direction:row-reverse;
+}
+
+.films-picture2 {
+    max-width:900px;
+    border:10px solid black;
+    margin:50px;
+}
+
+.films-intro2 {
+    color:white;
+    max-width:350px;
+    font-size:24px;
+    font-family:roboto;
+}
+
+.films-intro3 {
+    color:white;
+    max-width:350px;
+    font-size:65px;
+    font-family:roboto;
+}
