@@ -10,8 +10,8 @@
   </head>
 
   <body class ="body">
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- Navigation Bar (Universal for all pages)-->
       <div class="container-fluid">
         <a class="navbar-brand" href="#">SWiki</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,16 +44,17 @@
     </nav>
     
     
-    <div class = "flexbox" >
+    <div class = "flexbox" > <!-- Flexbox contains Carousel of pictures for home page and introduction
+    for home page -->
       <div class = "introBox">
-        <p class ="intro">
+        <p class ="intro">   <!-- Star Wars Wiki Introdution -->
           <b>SWiki</b> or <b>Star Wars Wiki</b> aims to provide fans/newcomers to the Star Wars universe a collection of 
           comprehensive information of the entire Star Wars franchise consisting of films, video games and TV series.
           We hope you find what you are looking for!
         </p>
       </div>
 
-      <div class = "carousel">
+      <div class = "carousel"> <!-- Bootstrap Carousel for main star wars page -->
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -80,16 +81,16 @@
       </div>
     </div>
 
-    <h2 class ="heading2">Star Wars: Did you know?</h2>
+    <h2 class ="heading2">Star Wars: Did you know?</h2>   
 
-    <div class="accordion-flexbox">
+    <div class="accordion-flexbox">   <!-- BootStrap Accordion for Did you know facts -->
       <div class="accordion" id="accordionExample" style="margin:50px; max-width:850px;">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button style="background-color:black; color:white"class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               Star Wars Fact #1: The Seventh Fleet
             </button>
-          </h2>
+          </h2>             <!-- Fun Fact 1 -->
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body"style="background-color:rgb(61, 60, 60); color:white;">
               <strong>The Seventh Fleet</strong>. In Mandalorian Chapter 13, the "Seventh Fleet" Insignia can be seen on the 2 HK-87 droids showcased in the episode.
@@ -103,7 +104,7 @@
             <button style="background-color:black; color:white" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               Star Wars Fact #2: "I got a bad feeling about this"
             </button>
-          </h2>
+          </h2>               <!-- Fun Fact 2 -->
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div style="background-color:rgb(61, 60, 60); color:white;" class="accordion-body">
               <strong>An iconic quote</strong>. "I got a bad feeling about this" has appeared quite often in the Star Wars Saga along with its TV Series
@@ -117,7 +118,7 @@
             <button style="background-color:black; color:white" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
               Star Wars Fact #3: "8-1-0-8"
             </button>
-          </h2>
+          </h2>                 <!-- Fun Fact 3 -->
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div style="background-color:rgb(61, 60, 60); color:white;" class="accordion-body">
               <strong>"8-1-0-8"</strong>. While trying to find Fives' file in Star Wars: The Clone Wars S7E11, Ahsoka Tano uses Jedi Knight, Anakin Skywalker's passcode of "8-1-0-8".
@@ -131,7 +132,7 @@
       <div class="card"style='max-width:380px;max-height:160px;border:black'>
         <div class="card-header"style="background-color:rgb(61, 60, 60);color:white; font-size:20px;">
           Quote 1
-        </div>
+        </div>        <!-- Quote Showcasing Yoda -->
         <div class="card-body"style="background-color:black;color:white">
           <blockquote class="blockquote mb-0">
             <p>Do or do not, there is no try.</p>
@@ -143,12 +144,10 @@
     </div>
 
 
-
-
-      <div class="flexbox2">
+      <div class="flexbox2">      <!-- Flexbox2 compromises star wars,george lucas and jon favreau cards -->
         <div class="card text-white bg-dark mb-3" style="width: 18rem;">
           <img src="Images/swlogo.png" class="card-img-top" alt="Star Wars Logo">
-          <div class="card-body">
+          <div class="card-body">                   <!-- Card showcasing Star Wars -->
             <h5 class="card-title">Star Wars</h5>
             <p class="card-text" style = "font-size:18px;">It features an action-packed story in a galaxy far far away... Visit the 
               Official Star Wars Website to find out more!
@@ -162,7 +161,7 @@
             <div class="col-md-4">
               <img src="Images/georgelucaspic.jpg" alt="George Lucas" style="max-width: 287px; min-height: 400px;" >
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8">      <!-- Card showcasing George Lucas -->
               <div class="card-body">
                 <h5 class="card-title" style = "margin-left: 115px; font-size: 22px;">Creator Of Star Wars</h5>
                 <p class="card-text" style = "margin-left: 115px; font-size:19px;">
@@ -176,13 +175,14 @@
           </div>
         </div>
 
-
+        
+        
         <div class="card text-white bg-dark mb-3" style="max-width: 550px; margin-right: 50px;">
           <div class="row g-0">
-            <div class="col-md-4">
+            <div class="col-md-4">    
               <img src="Images/jonfavreaupicjpeg.jpeg" alt="Jon Favreau" style="max-width: 270px;" >
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8">        <!-- Card showcasing Jon Favreau -->
               <div class="card-body">
                 <h5 class="card-title" style = "margin-left: 110px; font-size: 22px;">Executive Producer</h5>
                 <p class="card-text" style = "margin-left: 110px; font-size:19px;">
@@ -198,17 +198,17 @@
       </div>
 
       
-      <h2 class="search-title">SWiki Search!</h2>
+      <h2 class="search-title">SWiki Search!</h2>  <!-- Overall Search Function -->
 
       <div class="flexbox3">
 
-        <p class="search-intro">
+        <p class="search-intro">    <!-- Description of Serach Funtion -->
           Swiki Search uses SWAPI to retrieve specific details of many Star Wars characters and star ships
           just by entering their name! Information such as name, birth year or even hyperdrive class will be 
           easily accessible.(Give Luke Skywalker or X-Wing a shot)
         </p>
 
-        <div class="search-flexbox1">
+        <div class="search-flexbox1">  <!-- Character Search Function -->
           <div style="color:white;font-size:25px;margin-bottom:5px;">Character Search</div>
           <form>
             <input style="font-size:20px;"class ="input"type="text" id="name-input" value="" name="name-input">
@@ -244,7 +244,7 @@
 
       
 
-        <div class="search-flexbox1">
+        <div class="search-flexbox1">   <!-- Starship Search Function -->
           <div style="color:white;font-size:25px;margin-bottom:5px;min-width:600px;">Starship Search</div>
           <form> 
             <input style="font-size:20px;min-width:300px;"class ="input2"type="text" id="starship-input" value="" name="starship-input">
@@ -283,9 +283,7 @@
       
       
     
-    <!--
-    
-    -->
+    <!--   -->
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
