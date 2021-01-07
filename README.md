@@ -108,6 +108,7 @@ The API i chose to use, SWAPI stated in its documentation that it has a limit of
 * https://www.pcgamesn.com/star-wars-jedi-fallen-order/tomb-of-eilram-sphere-walkthrough
 * https://www.usgamer.net/articles/jedi-fallen-orders-intro-beautifully-captures-one-of-star-wars-defining-traits<br>
 * https://www.pcgamer.com/star-wars-jedi-fallen-order-just-got-a-new-arena-combat-mode/
+* https://www.starwars.com/news/5-symbols-in-the-star-wars-universe
 
 
 <h2>Links</h2>
@@ -116,6 +117,8 @@ Github Site Link: https://itlimjiawei.github.io/Repository-2-/
 
 <h2>Acknowledgements</h2>
 
-1. Lee Wen Kang , Y1 IT Student and good friend: He helped me out with some of my enquiries on the assignment and also assisted me in testing the API i had chosen as I had quite a bit of trouble getting it to work initially.
+1. Lee Wen Kang , Y1 IT Student and good friend. He helped me out with some of my enquiries on the assignment and also assisted me in testing the API i had chosen as I had quite a bit of trouble getting it to work initially.
 
-2. Parts of this website were inspired by https://starwars.fandom.com/wiki/Main_Page
+2. Parts of this website were inspired by https://starwars.fandom.com/wiki/Main_Page and https://www.ea.com/games/starwars/jedi-fallen-order
+
+3. W3Schools. W3Schools played an integral part in the making of SWiki. 
