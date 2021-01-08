@@ -520,6 +520,10 @@
     /* END of Home Page CSS Mobile Optimizations */
 
     /* Start of Clonewars Page CSS Mobile Optimizations */
+
+    .clonewars-title {
+        font-size:26px;
+    }
     
     .clonewars-flexbox1 {
         display:flex;
@@ -527,6 +531,7 @@
     }
 
     .clonewars-intro {
+       margin-top:-40px;
        margin-left:55px;
        width:400px;
     }
@@ -536,7 +541,16 @@
         height:300px;
     }
 
+    .force99 {
+        height:150px;
+        min-width:450px;
+    }
 
+    .clonewars-intro-content {
+        font-size:20px;
+    }
+
+    /* END of Clone Wars CSS Mobile Optimizations */
 
 
     
