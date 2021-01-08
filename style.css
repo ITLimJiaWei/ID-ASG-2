@@ -488,6 +488,10 @@
 /* START of Home Page CSS Mobile Optimizations */
 
 @media screen and (max-width: 800px) {
+
+    .body {
+        width:960px;
+    }
     .flexbox {
         display:flex;
         flex-direction:column;
