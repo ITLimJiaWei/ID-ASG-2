@@ -17,7 +17,8 @@ Date        | Description                                             | Status
 06/01/2021  | Added Character/Starship Search Function in index.html  |  Done
 07/01/2021  | Finalised 90% Of SWiki Design/Functionality             |  Done
 07/01/2021  | Added Planet/Species Search Function in games.html      |  Done
-08/01/2021  | Begun final mobile optimizations(Responsive)            |   -
+08/01/2021  | Begun final mobile optimizations(Responsive)            |  Done 
+08/01/2021  | Finalized both Desktop and Mobile Wireframes            |  Done 
 
 <h2>Design Process</h2>
 
@@ -36,7 +37,7 @@ UPDATE: 4/1/2021: I made large changes to the wireframes for the website such as
 
 Adobe XD Destop: https://xd.adobe.com/view/4eabc554-cc89-43b5-a31e-fb32b5ea5727-1bf8/
 
-Adobe XD Mobile: 
+Adobe XD Mobile: https://xd.adobe.com/view/9145998b-8b9a-43b3-95cb-6bae090be846-c416/
 
 
 
