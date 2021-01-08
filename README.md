@@ -17,7 +17,7 @@ Date        | Description                                             | Status
 06/01/2021  | Added Character/Starship Search Function in index.html  |  Done
 07/01/2021  | Finalised 90% Of SWiki Design/Functionality             |  Done
 07/01/2021  | Added Planet/Species Search Function in games.html      |  Done
-08/01/2021  | Begun final mobile optimizations(Responsive)            |  Done 
+08/01/2021  | Made Home, Clone Wars and Mandalorian Pages mostly responsive |  Done 
 08/01/2021  | Finalized both Desktop and Mobile Wireframes            |  Done 
 
 <h2>Design Process</h2>
