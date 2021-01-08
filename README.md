@@ -17,6 +17,7 @@ Date        | Description                                             | Status
 06/01/2021  | Added Character/Starship Search Function in index.html  |  Done
 07/01/2021  | Finalised 90% Of SWiki Design/Functionality             |  Done
 07/01/2021  | Added Planet/Species Search Function in games.html      |  Done
+08/01/2021  | Begun final mobile optimizations(Responsive)            |   -
 
 <h2>Design Process</h2>
 
