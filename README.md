@@ -34,9 +34,9 @@ I was sure to keep my code well documented, especially my style.css file because
 
 UPDATE: 4/1/2021: I made large changes to the wireframes for the website such as swapping out static images with video embeds and changing stale paragraphs of text with accordions using Bootstrap v5.0's Accordion Component.
 
-Adobe XD Destop: 
+Adobe XD Destop: https://xd.adobe.com/view/4eabc554-cc89-43b5-a31e-fb32b5ea5727-1bf8/
 
-Adobe XD Mobile:
+Adobe XD Mobile: 
 
 
 
@@ -69,7 +69,7 @@ Testing is very important in programming and is especially imperative in front w
 <h3>Possible Problems</h3>
 
 1. The API i chose to use, SWAPI stated in its documentation that it has a limit of 10,000 requests a day. Though it is unlikely to hit this high limit, it should be kept in mind.
-2. Search Function was tested to work but may have inconsistent delays from pressing "Submit" to the information appearing.
+2. Search Functions were tested to work but may have inconsistent delays from pressing "Submit" to the information appearing.
 
 
 
