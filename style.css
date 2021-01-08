@@ -167,7 +167,8 @@
     margin-left:50px;
     border:solid 8px rgb(61, 60, 60);
     overflow:hidden;
-    min-width:960px;
+    width:960px;
+    height:540px;
 }
 
 .clonewars-flexbox1 {
@@ -496,11 +497,12 @@
         display:flex;
         flex-direction:column;
         max-width:800px;
-        
     }
 
+    
+
     .intro{
-        
+        display:none;
         margin-right:500px;
     }
     
@@ -511,10 +513,32 @@
         flex-direction:column;
     }
 
-    
     .search-intro {
         max-height:600px;
     }
+
+    /* END of Home Page CSS Mobile Optimizations */
+
+    /* Start of Clonewars Page CSS Mobile Optimizations */
+    
+    .clonewars-flexbox1 {
+        display:flex;
+        flex-direction:column;
+    }
+
+    .clonewars-intro {
+       margin-left:55px;
+       width:400px;
+    }
+
+    .clonewars-video {
+        width:460px;
+        height:300px;
+    }
+
+
+
+
     
     
 }
