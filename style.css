@@ -500,7 +500,7 @@
     }
     
     .accordion-flexbox,
-    .flexbox2
+    .flexbox2,
     .flexbox3 {
         display:flex;
         flex-direction:column;
