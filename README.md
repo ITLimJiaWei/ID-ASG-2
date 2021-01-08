@@ -123,7 +123,6 @@ Github Site Link: https://itlimjiawei.github.io/Repository-2-/
 <h2>Acknowledgements</h2>
 
 1. Lee Wen Kang , Y1 IT Student and good friend. He helped me out with some of my enquiries on the assignment and also assisted me in testing the API i had chosen as I had quite a bit of trouble getting it to work initially.
-
 2. Parts of this website were inspired by https://starwars.fandom.com/wiki/Main_Page and https://www.ea.com/games/starwars/jedi-fallen-order
-
-3. W3Schools. W3Schools played an integral part in the making of SWiki. 
+3. W3Schools played an integral part in the making of SWiki. 
+4. Fonts used such as Roboto and Roboto Slab were imported from Google Fonts.
