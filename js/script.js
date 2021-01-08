@@ -1,14 +1,16 @@
 
 document.getElementById("btn").addEventListener("click",function(event) {event.preventDefault(); button()});
+/* Adding eventlistener to submit button */
+
 
 function button() {
     var input = document.getElementById("name-input").value;
-    getpeople(input);
+    getpeople(input);           /* Retrieving user input and calling getpeople function */
 
 }
 
 
-function getpeople(input) {
+function getpeople(input) {     /* Getpeople function uses SWAPI to retrieve character details */
     
     var settings = {
         "url": "https://swapi.dev/api/people/?search="+input,
@@ -24,23 +26,25 @@ function getpeople(input) {
         var weight = document.getElementById("weight").innerHTML = "&nbsp;"+response.results[0].mass+"kg";
         var hair_colour = document.getElementById("hair-colour").innerHTML = "&nbsp;"+response.results[0].hair_color;
         var birth_year = document.getElementById("birth-year").innerHTML = "&nbsp;"+response.results[0].birth_year;
-
+        /* Inserts selected character detals into index.html */
       });
     
 }
 
 document.getElementById("btn2").addEventListener("click",function(event) {event.preventDefault(); button2()});
+/* Adding eventlistener to submit button */
+
 
 function button2() {
     var input = document.getElementById("starship-input").value;
-    getstarship(input);
+    getstarship(input);       /* Retrieving user input and calling getstarship function */
     
 }
 
 
-function getstarship(input) {
+function getstarship(input) {  /* Getstarship function uses SWAPI to retrieve starship details */
     
-    var settings = {
+    var settings = {      
         "url": "https://swapi.dev/api/starships/?search="+input,
         "method": "GET",
         "timeout": 0,
@@ -54,34 +58,7 @@ function getstarship(input) {
         var manufacturer = document.getElementById("cost").innerHTML = "&nbsp;"+response.results[0].cost_in_credits+"Credits";
         var crew = document.getElementById("crew").innerHTML = "&nbsp;"+response.results[0].crew;
         var hyperdrive = document.getElementById("hyperdrive").innerHTML ="&nbsp;"+ response.results[0].hyperdrive_rating;
-
-      });
-    
-}
-
-
-document.getElementById("game-btn").addEventListener("click",function(event) {event.preventDefault(); button3()});
-
-function button3() {
-    var input = document.getElementById("game-name-input").value;
-    getplanet(input);
-    
-}
-
-
-function getplanet(input) {
-    
-    var settings = {
-        "url": "https://swapi.dev/api/planets/?search="+input,
-        "method": "GET",
-        "timeout": 0,
-      };
-      
-      $.ajax(settings).done(function (response) {
-        console.log(response);
-    
-        var name = document.getElementById("planet-name").innerHTML = response.name;
-
+        /* Inserts selected starship detals into index.html */
       });
     
 }
