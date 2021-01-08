@@ -537,8 +537,8 @@
     }
 
     .clonewars-video {
-        width:460px;
-        height:300px;
+        max-width:400px;
+        max-height:200px;
     }
 
     .force99 {
@@ -552,7 +552,32 @@
 
     /* END of Clone Wars CSS Mobile Optimizations */
 
+    /* START of The Mandalorian CSS Mobile Optimizations */
 
-    
+    .mandalorian-flexbox1 {
+        flex-direction:column;
+        
+    }
+    .mandalorian-video {
+        max-width:400px;
+        max-height:200px;
+    }
+    .mandalorian-flexbox1-inner {
+        width:300px;
+        margin-top:-30px;
+    }
+
+    .mandalorian-logo {
+        width:500px;
+    }
+    .mandalorian-intro {
+        font-size:18px;
+    }
+    .mandalorian-flexbox2 {
+        flex-direction:column;
+    }
+    .grogu {
+        
+    }
     
 }
