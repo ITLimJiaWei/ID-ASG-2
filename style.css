@@ -490,17 +490,18 @@
 @media screen and (max-width: 800px) {
 
     .body {
-        width:960px;
+        max-width:960px;
     }
     .flexbox {
         display:flex;
         flex-direction:column;
-        max-width:1080px;
+        max-width:800px;
         
     }
 
     .intro{
-        visibility:hidden;
+        
+        margin-right:500px;
     }
     
     .accordion-flexbox,
@@ -508,6 +509,11 @@
     .flexbox3 {
         display:flex;
         flex-direction:column;
+    }
+
+    
+    .search-intro {
+        max-height:600px;
     }
     
     
