@@ -89,7 +89,7 @@ function getspecies(input) {     /* Getspecies function uses SWAPI to retrieve s
           document.getElementById("species-name").innerHTML = "&nbsp;"+response.results[0].name;
           document.getElementById("species-height").innerHTML = "&nbsp;"+ response.results[0].average_height+"cm";
           document.getElementById("species-lifespan").innerHTML = "&nbsp;"+ response.results[0].average_lifespan+"years";
-          var url = response.results[0].homeworld  /* Inserts selected species detals into game.html */
+          var url = response.results[0].homeworld;  /* Inserts selected species detals into game.html */
 
           var settings = {
             "url": url,
