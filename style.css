@@ -685,7 +685,7 @@
     .films-picture1,
     .films-picture2,
     .films-picture3 {
-        max-width:500px;
+        max-width:450px;
         border:6px solid black;
     }
 
