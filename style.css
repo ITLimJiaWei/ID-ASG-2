@@ -102,6 +102,15 @@
     
 }
 
+.georgelucas-title {
+    margin-left:115px;
+}
+
+.georgelucas-text {
+    margin-left: 115px; 
+    font-size:19px;
+}
+
 .flexbox3 {
     display:flex;
     flex-direction:row;
@@ -367,6 +376,12 @@
     flex-direction:row;
 }
 
+.species-input,
+.planet-input {
+    font-size:20px;
+    min-width:290px;
+}
+
 .game-planetsearch-title {
     font-size:roboto;
     margin:50px;
@@ -496,9 +511,10 @@
     .flexbox {
         display:flex;
         flex-direction:column;
-        max-width:800px;
+        max-width:400px;
     }
 
+    
     
 
     .intro{
@@ -512,10 +528,30 @@
         display:flex;
         flex-direction:column;
     }
+    .goergelucas-title {
+        margin-right:50px;
+    }
 
+    .lucas-card {
+        width:290px;
+    }
+
+    .lucas-card-body {
+        max-height:650px;
+    }
+
+    
     .search-intro {
+        font-size:22px;
+        margin-right:50px;
         max-height:600px;
     }
+
+    .favreau-pic {
+        width:500px;
+    }
+
+    
 
     /* END of Home Page CSS Mobile Optimizations */
 
@@ -583,6 +619,61 @@
         flex-direction:column;
     }
     
+    /* END of The Mandalorian CSS Mobile Optimizations */
+
+    /* START of Video Game CSS Mobile Optimizations */
+    .game-flexbox1,
+    .game-flexbox2,
+    .game-flexbox3 {
+        flex-direction:column;
+    }
+
+    .game-innerflexbox3-3 {
+        width:300px;
+        margin-left:50px;
+    }
+    .species-input {
+        max-width:100px;
+    }
     
+    .game-divider1 {
+        font-size:28px;
+    }
+
+    /* END of Video Game CSS Mobile Optimizations */
+    
+    /* START of Films CSS Mobile Optimizations */
+
+    .films-flexbox1,
+    .films-flexbox2,
+    .films-flexbox3  {
+        flex-direction:column;
+    }
+
+    .films-picture1,
+    .films-picture2,
+    .films-picture3 {
+        max-width:500px;
+        border:6px solid black;
+    }
+
+    .films-innerflexbox1,
+    .films-innerflexbox3 {
+        margin-left:60px;
+        margin-top:-40px;
+    }
+
+    .films-innerflexbox2 {
+        margin-left:60px;
+        
+    }
+
+    .film-divider1,
+    .film-divider2 {
+        font-size:26px;
+    }
+
+
+
 }
 
