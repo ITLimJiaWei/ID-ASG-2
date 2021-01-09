@@ -532,6 +532,8 @@
     .clonewars-flexbox1 {
         display:flex;
         flex-direction:column;
+        margin-right:50px;
+        width:100%
     }
 
     .clonewars-intro {
@@ -547,7 +549,7 @@
 
     .force99 {
         height:120px;
-        min-width:380px;
+        min-width:330px;
     }
 
     .clonewars-intro-content {
