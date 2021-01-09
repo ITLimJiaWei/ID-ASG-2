@@ -19,6 +19,7 @@ Date        | Description                                             | Status
 07/01/2021  | Added Planet/Species Search Function in games.html      |  Done
 08/01/2021  | Made Home, Clone Wars and Mandalorian Pages mostly responsive |  Done 
 08/01/2021  | Finalized both Desktop and Mobile Wireframes            |  Done 
+09/01/2021  | All Pages are mostly responsive excluding a few cards   |  Done 
 
 <h2>Design Process</h2>
 
