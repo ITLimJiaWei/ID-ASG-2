@@ -536,13 +536,9 @@
         max-width:960px;
     }
     .flexbox {
-        display:flex;
         flex-direction:column;
         max-width:400px;
     }
-
-    
-    
 
     .intro{
         display:none;
@@ -578,6 +574,10 @@
         width:500px;
     }
 
+    .search-flexbox1 {
+        margin-right:100px;
+    }
+
     
 
     /* END of Home Page CSS Mobile Optimizations */
@@ -595,7 +595,7 @@
     .clonewars-flexbox1 {
         display:flex;
         flex-direction:column;
-        margin-right:50px;
+        margin-right:200px;
         width:100%
     }
 
@@ -718,7 +718,7 @@
         font-size:26px;
     }
 
-
+     /* END of Films CSS Mobile Optimizations */
 
 }
 
