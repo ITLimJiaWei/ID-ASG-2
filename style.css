@@ -208,6 +208,8 @@
     margin-left:50px;
     border:solid 8px rgb(0, 0, 0);
     overflow:hidden;
+    width:960px; 
+    height:540px;
 }
 
 .mandalorian-flexbox1 {
