@@ -62,9 +62,6 @@ All code was run through all the validators found below and any errors found wer
 * https://color.a11y.com/Contrast/
 * https://typosaur.us/
 * https://rushax.com/tools/alt-tag-checker/
-  
-
-
 
 <h3>Devices and Resolutions Used</h3>
 
@@ -72,16 +69,16 @@ All code was run through all the validators found below and any errors found wer
 * Dell XPS 13 9300 (1920x1200)
 * Samsung Galaxy Note 9 (2220x1080)
 
-
 <h3>Browsers Used<h3>
 
+* Google Chrome
+* Microsoft Edge
+* Firefox
 
 <h3>Possible Problems</h3>
 
 1. The API i chose to use, SWAPI stated in its documentation that it has a limit of 10,000 requests a day. Though it is unlikely to hit this high limit, it should be kept in mind.
 2. Search Functions were tested to work but may have inconsistent delays from pressing "Submit" to the information appearing.
-
-
 
 
 <h2>Credits<h2>
@@ -129,6 +126,7 @@ All code was run through all the validators found below and any errors found wer
 <h2>Links</h2>
 
 Github Site Link: https://itlimjiawei.github.io/Repository-2-/
+Github Repostory Link: https://github.com/ITLimJiaWei/Repository-2-
 
 <h2>Acknowledgements</h2>
 
