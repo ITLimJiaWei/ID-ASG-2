@@ -521,6 +521,10 @@
 
     /* Start of Clonewars Page CSS Mobile Optimizations */
 
+    .clonewars-navbar {
+        width:100%
+    }
+
     .clonewars-title {
         font-size:26px;
     }
@@ -576,8 +580,6 @@
     .mandalorian-flexbox2 {
         flex-direction:column;
     }
-    .grogu {
-        
-    }
+    
     
 }
