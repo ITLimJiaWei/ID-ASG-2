@@ -16,6 +16,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-color: black;
 }
 
 .mandalorian-body {
@@ -23,6 +24,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-color: black;
 }
 
 .game-body {
@@ -30,6 +32,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-color: black;
 }
 
 .films-body {
@@ -37,6 +40,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-color: black;
 }
 
 /* END OF CSS for all backgrounds for different pages  */
@@ -82,8 +86,7 @@
 }
 
 .heading2 {
-    color:rgb(207, 207, 207);
-    background-color:;
+    color:white;
     margin-left:50px;
     margin-top:20px;
     margin-bottom:-40px;
