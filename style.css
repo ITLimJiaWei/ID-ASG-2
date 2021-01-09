@@ -45,12 +45,13 @@
 .flexbox {
     display:flex;
     flex-direction: row;
-    background-color:black;
+    background-color:black; 
+    border: 10px solid rgb(20, 20, 20);
     opacity: 0.9;
     margin-top:50px;
     margin-left: 50px;
     max-width: 1100px;
-    border: 12px solid black;
+    
     
     
 }
@@ -399,7 +400,6 @@
 }
 
 .game-planetsearch-title {
-    font-size:roboto;
     margin:50px;
     margin-top:20px;
     color:white;
