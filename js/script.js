@@ -127,11 +127,11 @@ function button_wookie() {
   {
     getpeople_wookie(input);
   }
-             /* Retrieving user input and calling getpeople function */
+             /* Retrieving user input and calling getpeople_wookie function */
 
 }
 
-function getpeople_wookie(input) {     /* Getpeople function uses SWAPI to retrieve character details */
+function getpeople_wookie(input) {     /* Getpeople_wookie function uses SWAPI to retrieve character details */
     
   var settings = {
       "url": "https://swapi.dev/api/people/?search="+input,
@@ -150,7 +150,7 @@ function getpeople_wookie(input) {     /* Getpeople function uses SWAPI to retri
       else 
       {
         var settings = {
-          "url": response.results[0].url+"?format=wookiee",
+          "url": response.results[0].url+"?format=wookiee", /* Appending ?format=wookiee to enable wookiee language  */
           "method": "GET",
           "timeout": 0,
         };
@@ -167,7 +167,7 @@ function getpeople_wookie(input) {     /* Getpeople function uses SWAPI to retri
 
 
           var settings = {
-            "url": response.results[0].homeworld,
+            "url": response.results[0].homeworld, /* Makes another GET request to retrive homeworld name */
             "method": "GET",
             "timeout": 0,
           };
@@ -200,11 +200,11 @@ function button_wookie2() {
   {
     getstarship_wookie(input);
   }
-             /* Retrieving user input and calling getpeople function */
+             /* Retrieving user input and calling getstarship_wookie function */
 
 }
 
-function getstarship_wookie(input) {     /* Getpeople function uses SWAPI to retrieve character details */
+function getstarship_wookie(input) {     /* getstarship_wookie function uses SWAPI to retrieve character details */
     
   var settings = {
       "url": "https://swapi.dev/api/starships/?search="+input,
@@ -237,15 +237,7 @@ function getstarship_wookie(input) {     /* Getpeople function uses SWAPI to ret
           document.getElementById("crew").innerHTML = "&nbsp;" + response_wookie.oarcwooh;
           document.getElementById("hyperdrive").innerHTML = "&nbsp;" + response_wookie.acroakworcwarcahhowo_rcraaoahwhrr;
 
-
-
         });
-
-        
       }
-      
-      
-      
     });
-  
 }

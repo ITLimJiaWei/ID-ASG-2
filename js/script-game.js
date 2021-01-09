@@ -123,11 +123,11 @@ function button_wookie3() {
   {
     getspecies_wookie(input);
   }
-             /* Retrieving user input and calling getpeople function */
+             /* Retrieving user input and calling getspecies_wookie function */
 
 }
 
-function getspecies_wookie(input) {     /* Getpeople function uses SWAPI to retrieve character details */
+function getspecies_wookie(input) {     /* getspecies_wookie function uses SWAPI to retrieve character details */
     
   var settings = {
       "url": "https://swapi.dev/api/species/?search="+input,
@@ -158,12 +158,12 @@ function getspecies_wookie(input) {     /* Getpeople function uses SWAPI to retr
           document.getElementById("species-height").innerHTML = "&nbsp;" + response_wookie.rahoworcrarrwo_acwoahrracao+"cm";
           document.getElementById("species-lifespan").innerHTML = "&nbsp;" + response_wookie.rahoworcrarrwo_anahwwwocakrawh+"years";
           
-
+          /* Inserting species details in wookiee in specified search functions */
 
 
 
           var settings = {
-            "url": response.results[0].homeworld,
+            "url": response.results[0].homeworld,  /* Creating another GET request to get homeworld name */
             "method": "GET",
             "timeout": 0,
           };
@@ -184,7 +184,7 @@ function getspecies_wookie(input) {     /* Getpeople function uses SWAPI to retr
 }
 
 document.getElementById("wookie-btn4").addEventListener("click",function(event) {event.preventDefault(); button_wookie4()});
-
+/* Add eventlistener to wookie-btn4 in game.html */
 
 function button_wookie4() {
   var input = document.getElementById("game-name-input").value;
@@ -197,11 +197,11 @@ function button_wookie4() {
   {
     getplanet_wookie(input);
   }
-             /* Retrieving user input and calling getpeople function */
+             /* Retrieving user input and calling getplanet_wookie function */
 
 }
 
-function getplanet_wookie(input) {     /* Getpeople function uses SWAPI to retrieve character details */
+function getplanet_wookie(input) {     /* getplanet_wookie function uses SWAPI to retrieve character details */
     
   var settings = {
       "url": "https://swapi.dev/api/planets/?search="+input,
@@ -232,16 +232,10 @@ function getplanet_wookie(input) {     /* Getpeople function uses SWAPI to retri
           document.getElementById("planet-climate").innerHTML = "&nbsp;" + response_wookie.oaanahscraaowo;
           document.getElementById("planet-terrain").innerHTML = "&nbsp;" + response_wookie.aoworcrcraahwh;
           document.getElementById("planet-population").innerHTML = "&nbsp;" + response_wookie.akooakhuanraaoahoowh;
-
+           /* Inserting planet details in wookiee in specified search functions */
 
 
         });
-
-        
       }
-      
-      
-      
     });
-  
 }       
