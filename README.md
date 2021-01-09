@@ -34,8 +34,6 @@ Judging from these views, my website should be kept up to date, contain past his
 I was sure to keep my code well documented, especially my style.css file because it is quite lengthy and contains all the CSS for every page in SWiki. This is so if anyone else were to view my work, they would be able to understand the purpose of that section of code easily.
 
 
-UPDATE: 4/1/2021: I made large changes to the wireframes for the website such as swapping out static images with video embeds and changing stale paragraphs of text with accordions using Bootstrap v5.0's Accordion Component.
-
 Adobe XD Destop: https://xd.adobe.com/view/4eabc554-cc89-43b5-a31e-fb32b5ea5727-1bf8/
 
 Adobe XD Mobile: https://xd.adobe.com/view/9145998b-8b9a-43b3-95cb-6bae090be846-c416/
@@ -59,10 +57,12 @@ All code was run through all the validators found below and any errors found wer
 
 * https://validator.w3.org/ 
 * https://jigsaw.w3.org/css-validator/ 
+* https://jshint.com/
 * https://validator.w3.org/checklink
 * https://color.a11y.com/Contrast/
 * https://typosaur.us/
 * https://rushax.com/tools/alt-tag-checker/
+  
 
 
 
@@ -91,6 +91,7 @@ All code was run through all the validators found below and any errors found wer
 * HTML 
 * CSS
 * Javascript
+* Jquery
 
 <h3>APIs Used</h3>
 
@@ -98,33 +99,31 @@ All code was run through all the validators found below and any errors found wer
 
 <h3>Media</h3>
 
-* https://goggler.my/the-mandalorian-season-2-episode-2-recap-chapter-10-the-passenger/ 
-* https://www.starwars.com/news/star-wars-the-clone-wars-final-season
-* https://dansmediadigest.co.uk/star-wars-the-rise-of-skywalker-sleepwalks-to-the-sci-fantasy-sagas-end-93a60d9e9a81?gi=b5555532bcf7<br>
-* https://en.wikipedia.org/wiki/List_of_Star_Wars_characters
-* https://en.wikipedia.org/wiki/George_Lucas#2012%E2%80%93present:_Semi-retirement
-* https://wallpaperaccess.com/imperial-star-destroyer
-* https://hdqwalls.com/star-wars-jedi-fallen-order-5k-2020-wallpaper
-* https://www.hdwallpapers.in/star_wars_darth_vader_solo_4k_hd-wallpapers.html
-* https://www.youtube.com/watch?v=ZLW2jkd6E7g
-* https://www.starwars.com/news/how-star-wars-the-clone-wars-further-explored-the-journey-of-anakin-skywalker
-* https://www.denofgeek.com/tv/star-wars-the-bad-batch-trailer-breakdown-spoilers/
-* https://www.youtube.com/watch?app=desktop&v=O8cKp6QexD4
-* https://www.cbr.com/wars-solves-revenge-of-the-sith-mystery/
-* https://www.slashfilm.com/the-mandalorian-season-2-release-date/
-* https://www.nme.com/news/tv/the-mandalorian-reveals-baby-yoda-real-name-season-two-episode-five-2826846
-* https://www.starwars.com/series/
-* https://www.wikidata.org/wiki/Q55449345
-* https://www.vulture.com/article/the-mandalorian-season-2-temuera-morrison-boba-fett-jango-fett.html
-* https://www.syfy.com/syfywire/the-mandalorian-season-2-finale-darksaber-star-wars-future
-* https://commons.wikimedia.org/wiki/File:Logo_Star_Wars_Battlefront_II_(2017)_schwarz.svg
-* https://www.nme.com/news/gaming-news/ea-confirms-star-wars-jedi-fallen-order-kicks-off-a-new-franchise-2662128<br>
-* https://www.pcgamesn.com/star-wars-jedi-fallen-order/tomb-of-eilram-sphere-walkthrough
-* https://www.usgamer.net/articles/jedi-fallen-orders-intro-beautifully-captures-one-of-star-wars-defining-traits<br>
-* https://www.pcgamer.com/star-wars-jedi-fallen-order-just-got-a-new-arena-combat-mode/
-* https://www.starwars.com/news/5-symbols-in-the-star-wars-universe
-* https://screenrant.com/star-wars-revenge-of-the-sith-greatest-moments/
-* https://free4kwallpapers.com/skywalker-wallpapers
+* Home Carousel Pic 1 https://goggler.my/the-mandalorian-season-2-episode-2-recap-chapter-10-the-passenger/ 
+* Home Carousel Pic 2 https://www.starwars.com/news/star-wars-the-clone-wars-final-season
+* Home Carousel Pic 3https://dansmediadigest.co.uk/star-wars-the-rise-of-skywalker-sleepwalks-to-the-sci-fantasy-sagas-end-93a60d9e9a81?gi=b5555532bcf7<br>
+* Home Star Wars Logo https://en.wikipedia.org/wiki/List_of_Star_Wars_characters
+* Home George Lucas Pic https://en.wikipedia.org/wiki/George_Lucas#2012%E2%80%93present:_Semi-retirement
+* Game Wallpaper https://hdqwalls.com/star-wars-jedi-fallen-order-5k-2020-wallpaper
+* Films Wallpaper https://www.hdwallpapers.in/star_wars_darth_vader_solo_4k_hd-wallpapers.html
+* Clone Wars Video https://www.youtube.com/watch?v=ZLW2jkd6E7g
+* Clone Wars Anakin Skywalker Pic https://www.starwars.com/news/how-star-wars-the-clone-wars-further-explored-the-journey-of-anakin-skywalker<br>
+* Clone Wars Ahsoka Tano Pic https://www.youtube.com/watch?v=ZLW2jkd6E7g
+* Clone Wars Bad Batch Pic https://www.denofgeek.com/tv/star-wars-the-bad-batch-trailer-breakdown-spoilers/
+* Clone Wars Obi-Wan Kenobi Pic https://www.youtube.com/watch?app=desktop&v=O8cKp6QexD4
+* Clone Wars CT-7567 Pic https://www.cbr.com/wars-solves-revenge-of-the-sith-mystery/
+* Mandalorian Logo https://www.slashfilm.com/the-mandalorian-season-2-release-date/
+* Mandalorian Grogu pic https://www.nme.com/news/tv/the-mandalorian-reveals-baby-yoda-real-name-season-two-episode-five-2826846<br>
+* Home Background https://www.starwars.com/series/
+* Games Logo https://www.wikidata.org/wiki/Q55449345
+* Mandalorian Boba Fett Pichttps://www.vulture.com/article/the-mandalorian-season-2-temuera-morrison-boba-fett-jango-fett.html<br>
+* Mandalorian Moff Gideon Pic https://www.syfy.com/syfywire/the-mandalorian-season-2-finale-darksaber-star-wars-future
+* Games Carousel Pic 1 https://www.nme.com/news/gaming-news/ea-confirms-star-wars-jedi-fallen-order-kicks-off-a-new-franchise-2662128<br>
+* Games Carousel Pic 2https://www.usgamer.net/articles/jedi-fallen-orders-intro-beautifully-captures-one-of-star-wars-defining-traits<br>
+* Games Carousel Pic 3 https://www.pcgamer.com/star-wars-jedi-fallen-order-just-got-a-new-arena-combat-mode/
+* Games Jedi Order Logo https://www.starwars.com/news/5-symbols-in-the-star-wars-universe
+* Films Revenge Of The Sith Pic https://screenrant.com/star-wars-revenge-of-the-sith-greatest-moments/
+* Films Return Of The Jedi Pic https://free4kwallpapers.com/skywalker-wallpapers
 
 
 <h2>Links</h2>
