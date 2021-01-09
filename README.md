@@ -46,7 +46,12 @@ Adobe XD Mobile: https://xd.adobe.com/view/9145998b-8b9a-43b3-95cb-6bae090be846-
 Since SWiki's main goal is to provide information about Star Wars i implemented several features to guarantee that the navigation is intuitive and the experience is memorably good.
 
 1. Utilizing Bootstrap v5.0's Card Component while also utilizing my own CSS to modify it. I found these "Cards" extremely useful in showcasing certain characters in a simplistic form as they are already mostly responsive and also include a space for the description of said character.
-2. Search function that allows users to input the name of any Star Wars character found in SWAPI and retrieve specfic details about them such as which films they appeared in or simply their height and weight.
+2. Search function that allows users to input the name of any Star Wars character found in SWAPI and retrieve specfic details about them such as which films they appeared in or simply their height and weight. I would wish to develop this further if SWAPI is updated to include images so I am able to create a dictionary of characters instead of only a few search functions.
+
+<h3>Features to be considered for the future</h3>
+
+1. Chartjs could be used to compare and showcase the popularity of certain characters on perharps SWiki's homepage
+2.  Instead of having only search functions, SWiki could include a whole dictionary of characters in the future if SWAPI was updated to also output the images of Star Wars characters. I thought it wasn't appropiate to create a whole dictionary of characters using only static text and no images as it would be very dull.
 
 <h2>Testing</h2>
 Testing is very important in programming and is especially imperative in front web development because any bugs will be extremely obvious and annoying to any user visiting the website.
@@ -82,10 +87,7 @@ All code was run through all the validators found below and any errors found wer
 3. Search Functions were tested to work but may have inconsistent delays from pressing "Submit" to the information appearing.
 4. Bootstrap vertical cards may not be completely responsive in specifc resolutions and aspect ratios.
 
-<h3>Features to be considered for the future</h3>
 
-1. Chartjs could be used to compare and showcase the popularity of certain characters on perharps SWiki's homepage
-2.  Instead of having only search functions, SWiki could include a whole dictionary of characters in the future if SWAPI was updated to also output the images of Star Wars characters.
 
 <h2>Credits<h2>
 
