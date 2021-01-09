@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-color: black;
 }
 
 .clonewars-body {
@@ -82,7 +83,7 @@
 
 .heading2 {
     color:rgb(207, 207, 207);
-    background-color:none;
+    background-color:;
     margin-left:50px;
     margin-top:20px;
     margin-bottom:-40px;
