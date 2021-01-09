@@ -110,3 +110,138 @@ function getspecies(input) {     /* Getspecies function uses SWAPI to retrieve s
     
 }
 
+document.getElementById("wookie-btn3").addEventListener("click",function(event) {event.preventDefault(); button_wookie3()});
+
+function button_wookie3() {
+  var input = document.getElementById("species-name-input").value;
+  if (input.length <= 0 )
+  {
+    var error_msg = "Error: Please be more specifc in search";
+    document.getElementById("error3").innerHTML = "&nbsp;"+error_msg;
+  }
+  else
+  {
+    getspecies_wookie(input);
+  }
+             /* Retrieving user input and calling getpeople function */
+
+}
+
+function getspecies_wookie(input) {     /* Getpeople function uses SWAPI to retrieve character details */
+    
+  var settings = {
+      "url": "https://swapi.dev/api/species/?search="+input,
+      "method": "GET",
+      "timeout": 0,
+    };
+    
+    $.ajax(settings).done(function (response) {
+      
+      if ( response.count === 0 )
+      {
+        var error_msg = "Error: Please be more specifc in search";
+        document.getElementById("error3").innerHTML = "&nbsp;"+error_msg;
+        
+      }
+      else 
+      {
+        var settings = {
+          "url": response.results[0].url+"?format=wookiee",
+          "method": "GET",
+          "timeout": 0,
+        };
+        
+        $.ajax(settings).done(function (response_wookie) {
+          console.log(response_wookie);
+          document.getElementById("error3").innerHTML = "";
+          document.getElementById("species-name").innerHTML = "&nbsp;" + response_wookie.whrascwo;
+          document.getElementById("species-height").innerHTML = "&nbsp;" + response_wookie.rahoworcrarrwo_acwoahrracao+"cm";
+          document.getElementById("species-lifespan").innerHTML = "&nbsp;" + response_wookie.rahoworcrarrwo_anahwwwocakrawh+"years";
+          
+
+
+
+
+          var settings = {
+            "url": response.results[0].homeworld,
+            "method": "GET",
+            "timeout": 0,
+          };
+          
+          $.ajax(settings).done(function (response_homeworld) {
+            console.log(response_homeworld);
+            document.getElementById("species-homeworld").innerHTML = "&nbsp;" + response_homeworld.name;
+          });
+        });
+
+        
+      }
+      
+      
+      
+    });
+  
+}
+
+document.getElementById("wookie-btn4").addEventListener("click",function(event) {event.preventDefault(); button_wookie4()});
+
+
+function button_wookie4() {
+  var input = document.getElementById("game-name-input").value;
+  if (input.length <= 0 )
+  {
+    var error_msg = "Error: Please be more specifc in search";
+    document.getElementById("error4").innerHTML = "&nbsp;"+error_msg;
+  }
+  else
+  {
+    getplanet_wookie(input);
+  }
+             /* Retrieving user input and calling getpeople function */
+
+}
+
+function getplanet_wookie(input) {     /* Getpeople function uses SWAPI to retrieve character details */
+    
+  var settings = {
+      "url": "https://swapi.dev/api/planets/?search="+input,
+      "method": "GET",
+      "timeout": 0,
+    };
+    
+    $.ajax(settings).done(function (response) {
+      
+      if ( response.count === 0 )
+      {
+        var error_msg = "Error: Please be more specifc in search";
+        document.getElementById("error4").innerHTML = "&nbsp;"+error_msg;
+        
+      }
+      else 
+      {
+        var settings = {
+          "url": response.results[0].url+"?format=wookiee",
+          "method": "GET",
+          "timeout": 0,
+        };
+        
+        $.ajax(settings).done(function (response_wookie) {
+          console.log(response_wookie);
+          
+          document.getElementById("planet-name").innerHTML = "&nbsp;" + response_wookie.whrascwo;
+          document.getElementById("planet-climate").innerHTML = "&nbsp;" + response_wookie.oaanahscraaowo;
+          document.getElementById("planet-terrain").innerHTML = "&nbsp;" + response_wookie.aoworcrcraahwh;
+          document.getElementById("planet-population").innerHTML = "&nbsp;" + response_wookie.akooakhuanraaoahoowh;
+
+
+
+        });
+
+        
+      }
+      
+      
+      
+    });
+  
+}       

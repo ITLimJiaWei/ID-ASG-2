@@ -112,5 +112,140 @@ function getstarship(input) {  /* Getstarship function uses SWAPI to retrieve st
     
 }
 
+  /* BELOW IS WOOKIE VARIATION OF ABOVE FUNCTIONS */
+ 
+document.getElementById("wookie-btn").addEventListener("click",function(event) {event.preventDefault(); button_wookie()});
+
+function button_wookie() {
+  var input = document.getElementById("name-input").value;
+  if (input.length <= 0 )
+  {
+    var error_msg = "Error: Please be more specifc in search";
+    document.getElementById("error1").innerHTML = "&nbsp;"+error_msg;
+  }
+  else
+  {
+    getpeople_wookie(input);
+  }
+             /* Retrieving user input and calling getpeople function */
+
+}
+
+function getpeople_wookie(input) {     /* Getpeople function uses SWAPI to retrieve character details */
+    
+  var settings = {
+      "url": "https://swapi.dev/api/people/?search="+input,
+      "method": "GET",
+      "timeout": 0,
+    };
+    
+    $.ajax(settings).done(function (response) {
+      
+      if ( response.count === 0 )
+      {
+        var error_msg = "Error: Please be more specifc in search";
+        document.getElementById("error1").innerHTML = "&nbsp;"+error_msg;
+        
+      }
+      else 
+      {
+        var settings = {
+          "url": response.results[0].url+"?format=wookiee",
+          "method": "GET",
+          "timeout": 0,
+        };
+        
+        $.ajax(settings).done(function (response_wookie) {
+          console.log(response_wookie);
+          
+          document.getElementById("name").innerHTML = "&nbsp;" + response_wookie.whrascwo;
+          document.getElementById("height").innerHTML = "&nbsp;" + response_wookie.acwoahrracao+"cm";
+          document.getElementById("weight").innerHTML = "&nbsp;" + response_wookie.scracc+"kg";
+          document.getElementById("birth-year").innerHTML = "&nbsp;" + response_wookie.rhahrcaoac_roworarc;
 
 
+
+
+          var settings = {
+            "url": response.results[0].homeworld,
+            "method": "GET",
+            "timeout": 0,
+          };
+          
+          $.ajax(settings).done(function (response_homeworld) {
+            console.log(response_homeworld);
+            document.getElementById("homeworld").innerHTML = "&nbsp;" + response_homeworld.name;
+          });
+        });
+
+        
+      }
+      
+      
+      
+    });
+  
+}
+
+document.getElementById("wookie-btn2").addEventListener("click",function(event) {event.preventDefault(); button_wookie2()});
+
+function button_wookie2() {
+  var input = document.getElementById("starship-input").value;
+  if (input.length <= 0 )
+  {
+    var error_msg = "Error: Please be more specifc in search";
+    document.getElementById("error2").innerHTML = "&nbsp;"+error_msg;
+  }
+  else
+  {
+    getstarship_wookie(input);
+  }
+             /* Retrieving user input and calling getpeople function */
+
+}
+
+function getstarship_wookie(input) {     /* Getpeople function uses SWAPI to retrieve character details */
+    
+  var settings = {
+      "url": "https://swapi.dev/api/starships/?search="+input,
+      "method": "GET",
+      "timeout": 0,
+    };
+    
+    $.ajax(settings).done(function (response) {
+      
+      if ( response.count === 0 )
+      {
+        var error_msg = "Error: Please be more specifc in search";
+        document.getElementById("error1").innerHTML = "&nbsp;"+error_msg;
+        
+      }
+      else 
+      {
+        var settings = {
+          "url": response.results[0].url+"?format=wookiee",
+          "method": "GET",
+          "timeout": 0,
+        };
+        
+        $.ajax(settings).done(function (response_wookie) {
+          console.log(response_wookie);
+          
+          document.getElementById("model").innerHTML = "&nbsp;" + response_wookie.scoowawoan;
+          document.getElementById("manufacturer").innerHTML = "&nbsp;" + response_wookie.scrawhhuwwraoaaohurcworc;
+          document.getElementById("cost").innerHTML = "&nbsp;" + response_wookie.oaoocao_ahwh_oarcwowaahaoc;
+          document.getElementById("crew").innerHTML = "&nbsp;" + response_wookie.oarcwooh;
+          document.getElementById("hyperdrive").innerHTML = "&nbsp;" + response_wookie.acroakworcwarcahhowo_rcraaoahwhrr;
+
+
+
+        });
+
+        
+      }
+      
+      
+      
+    });
+  
+}
