@@ -78,8 +78,14 @@ All code was run through all the validators found below and any errors found wer
 <h3>Possible Problems</h3>
 
 1. The API i chose to use, SWAPI stated in its documentation that it has a limit of 10,000 requests a day. Though it is unlikely to hit this high limit, it should be kept in mind.
-2. Search Functions were tested to work but may have inconsistent delays from pressing "Submit" to the information appearing.
+2. SWAPI seems to not contain newer characters such as "Rey" or "Din Djarin" as they are relatively new to the Star Wars Universe.
+3. Search Functions were tested to work but may have inconsistent delays from pressing "Submit" to the information appearing.
+4. Bootstrap vertical cards may not be completely responsive in specifc resolutions and aspect ratios.
 
+<h3>Features to be considered for the future</h3>
+
+1. Chartjs could be used to compare and showcase the popularity of certain characters on perharps SWiki's homepage
+2.  Instead of having only search functions, SWiki could include a whole dictionary of characters in the future if SWAPI was updated to also output the images of Star Wars characters.
 
 <h2>Credits<h2>
 
