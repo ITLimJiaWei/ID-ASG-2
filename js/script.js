@@ -43,18 +43,20 @@ function getpeople(input) {     /* Getpeople function uses SWAPI to retrieve cha
           var weight = document.getElementById("weight").innerHTML = "&nbsp;"+response.results[0].mass+"kg";
           var url2 = response.results[0].homeworld;
           var birth_year = document.getElementById("birth-year").innerHTML = "&nbsp;"+response.results[0].birth_year;
+
+          var settings = {
+            "url": url2,
+            "method": "GET",
+            "timeout": 0,
+          };
+          
+          $.ajax(settings).done(function (response2) {
+            
+            var homeworld = document.getElementById("homeworld").innerHTML = "&nbsp;"+response2.name;
+          });
         }
         
-        var settings = {
-          "url": url2,
-          "method": "GET",
-          "timeout": 0,
-        };
         
-        $.ajax(settings).done(function (response) {
-          
-          var homeworld = document.getElementById("homeworld").innerHTML = "&nbsp;"+response.name;
-        });
         /* Inserts selected character detals into index.html */
       });
     
