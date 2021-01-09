@@ -407,7 +407,7 @@
 .species-input,
 .planet-input {
     font-size:20px;
-    min-width:290px;
+    min-width:270px;
 }
 
 .game-planetsearch-title {
@@ -457,6 +457,7 @@
     border:5px solid black;
     min-width:400px;
     min-height:185px;
+    max-height:320px;
     margin-top:100px;
     
 }
