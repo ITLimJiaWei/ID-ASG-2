@@ -55,8 +55,10 @@ Testing is very important in programming and is especially imperative in front w
 
 <h3>Online Validators Used</h3>
 
-* https://validator.w3.org/
-* https://jigsaw.w3.org/css-validator/
+All code was run through all the validators found below and any errors found were fixed.
+
+* https://validator.w3.org/ 
+* https://jigsaw.w3.org/css-validator/ 
 * https://validator.w3.org/checklink
 * https://color.a11y.com/Contrast/
 * https://typosaur.us/
