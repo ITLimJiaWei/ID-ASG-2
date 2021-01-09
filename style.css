@@ -82,6 +82,7 @@
 
 .heading2 {
     color:rgb(207, 207, 207);
+    background-color:none;
     margin-left:50px;
     margin-top:20px;
     margin-bottom:-40px;
@@ -140,7 +141,7 @@
 .search-title {
     margin-left:60px;
     margin-bottom:-50px;
-    
+    background-color:none;
     color:white;
 }
 
