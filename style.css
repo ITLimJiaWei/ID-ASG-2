@@ -522,7 +522,7 @@
     /* Start of Clonewars Page CSS Mobile Optimizations */
 
     .clonewars-navbar {
-        width:100%
+        width:100%;
     }
 
     .clonewars-title {
@@ -582,4 +582,10 @@
     }
     
     
+}
+
+@media screen and (max-width: 700px) {
+    .clonewars-navbar {
+        min-width:500px;
+    }
 }
