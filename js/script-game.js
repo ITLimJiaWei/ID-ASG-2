@@ -18,7 +18,7 @@ function getplanet(input) {       /* Getplanet function uses SWAPI to retrieve p
       };
       
       $.ajax(settings).done(function (response) {
-        console.log(response);
+        
     
         var name = document.getElementById("planet-name").innerHTML = "&nbsp;"+response.results[0].name;
         var climate = document.getElementById("planet-climate").innerHTML = "&nbsp;"+ response.results[0].climate;
@@ -48,7 +48,7 @@ function getspecies(input) {     /* Getspecies function uses SWAPI to retrieve s
       };
       
       $.ajax(settings).done(function (response) {
-        console.log(response);
+        
     
         var name = document.getElementById("species-name").innerHTML = "&nbsp;"+response.results[0].name;
         var average_height = document.getElementById("species-height").innerHTML = "&nbsp;"+ response.results[0].average_height+"cm";

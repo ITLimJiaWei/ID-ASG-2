@@ -19,7 +19,7 @@ function getpeople(input) {     /* Getpeople function uses SWAPI to retrieve cha
       };
       
       $.ajax(settings).done(function (response) {
-        console.log(response);
+        
     
         var name = document.getElementById("name").innerHTML = "&nbsp;"+ response.results[0].name;
         var height = document.getElementById("height").innerHTML = "&nbsp;"+response.results[0].height+"cm";
@@ -51,7 +51,7 @@ function getstarship(input) {  /* Getstarship function uses SWAPI to retrieve st
       };
       
       $.ajax(settings).done(function (response) {
-        console.log(response);
+        
 
         var model = document.getElementById("model").innerHTML = "&nbsp;"+response.results[0].model;
         var manufacturer = document.getElementById("manufacturer").innerHTML = "&nbsp;"+response.results[0].manufacturer;
