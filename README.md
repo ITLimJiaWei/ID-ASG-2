@@ -20,6 +20,7 @@ Date        | Description                                             | Status
 08/01/2021  | Made Home, Clone Wars and Mandalorian Pages mostly responsive |  Done 
 08/01/2021  | Finalized both Desktop and Mobile Wireframes            |  Done 
 09/01/2021  | All Pages are mostly responsive excluding a few cards   |  Done 
+09/01/2021  | Updated Search Functions to include wookiee language    |  Done 
 
 <h2>Design Process</h2>
 
@@ -46,7 +47,7 @@ Adobe XD Mobile: https://xd.adobe.com/view/9145998b-8b9a-43b3-95cb-6bae090be846-
 Since SWiki's main goal is to provide information about Star Wars i implemented several features to guarantee that the navigation is intuitive and the experience is memorably good.
 
 1. Utilizing Bootstrap v5.0's Card Component while also utilizing my own CSS to modify it. I found these "Cards" extremely useful in showcasing certain characters in a simplistic form as they are already mostly responsive and also include a space for the description of said character.
-2. Search function that allows users to input the name of any Star Wars character found in SWAPI and retrieve specfic details about them such as which films they appeared in or simply their height and weight. I would wish to develop this further if SWAPI is updated to include images so I am able to create a dictionary of characters instead of only a few search functions.
+2. Search functions that allow users to input the name of any Star Wars character, planet, species etc found in SWAPI and retrieve specfic details about them such as which films they appeared in or simply their height and weight. These search functions can be found at the bottom of index.html and game.html
 
 <h3>Features to be considered for the future</h3>
 
