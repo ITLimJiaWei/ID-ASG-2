@@ -546,8 +546,8 @@
     }
 
     .force99 {
-        height:150px;
-        min-width:450px;
+        height:120px;
+        min-width:380px;
     }
 
     .clonewars-intro-content {
@@ -584,8 +584,3 @@
     
 }
 
-@media screen and (max-width: 700px) {
-    .clonewars-navbar {
-        min-width:500px;
-    }
-}
