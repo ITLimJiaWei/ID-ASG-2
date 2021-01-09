@@ -8,7 +8,7 @@ function button() {
     if (input.length <= 0 )
     {
       var error_msg = "Error: Please be more specifc in search";
-      var msg = document.getElementById("error1").innerHTML = "&nbsp;"+error_msg;
+      document.getElementById("error1").innerHTML = "&nbsp;"+error_msg;
     }
     else
     {
@@ -32,17 +32,17 @@ function getpeople(input) {     /* Getpeople function uses SWAPI to retrieve cha
         if ( response.count === 0 )
         {
           var error_msg = "Error: Please be more specifc in search";
-          var msg = document.getElementById("error1").innerHTML = "&nbsp;"+error_msg;
+          document.getElementById("error1").innerHTML = "&nbsp;"+error_msg;
           
         }
         else 
         {
-          var msg = document.getElementById("error1").innerHTML = "";
-          var name = document.getElementById("name").innerHTML = "&nbsp;"+ response.results[0].name;
-          var height = document.getElementById("height").innerHTML = "&nbsp;"+response.results[0].height+"cm";
-          var weight = document.getElementById("weight").innerHTML = "&nbsp;"+response.results[0].mass+"kg";
+          document.getElementById("error1").innerHTML = "";
+          document.getElementById("name").innerHTML = "&nbsp;"+ response.results[0].name;
+          document.getElementById("height").innerHTML = "&nbsp;"+response.results[0].height+"cm";
+          document.getElementById("weight").innerHTML = "&nbsp;"+response.results[0].mass+"kg";
           var url2 = response.results[0].homeworld;
-          var birth_year = document.getElementById("birth-year").innerHTML = "&nbsp;"+response.results[0].birth_year;
+          document.getElementById("birth-year").innerHTML = "&nbsp;"+response.results[0].birth_year;
 
           var settings = {
             "url": url2,
@@ -52,7 +52,7 @@ function getpeople(input) {     /* Getpeople function uses SWAPI to retrieve cha
           
           $.ajax(settings).done(function (response2) {
             
-            var homeworld = document.getElementById("homeworld").innerHTML = "&nbsp;"+response2.name;
+            document.getElementById("homeworld").innerHTML = "&nbsp;"+response2.name;
           });
         }
         
@@ -71,7 +71,7 @@ function button2() {
     if (input.length <= 0 )
     {
       var error_msg = "Error: Please be more specifc in search";
-      var msg = document.getElementById("error2").innerHTML = "&nbsp;"+error_msg;
+      document.getElementById("error2").innerHTML = "&nbsp;"+error_msg;
     }
     else
     {
@@ -95,16 +95,16 @@ function getstarship(input) {  /* Getstarship function uses SWAPI to retrieve st
         if ( response.count === 0 )
         {
           var error_msg = "Error: Please be more specifc in search";
-          var msg = document.getElementById("error2").innerHTML = "&nbsp;"+error_msg;
+          document.getElementById("error2").innerHTML = "&nbsp;"+error_msg;
         }
         else
         { 
-          var msg = document.getElementById("error2").innerHTML = "";
-          var model = document.getElementById("model").innerHTML = "&nbsp;"+response.results[0].model;
-          var manufacturer = document.getElementById("manufacturer").innerHTML = "&nbsp;"+response.results[0].manufacturer;
-          var manufacturer = document.getElementById("cost").innerHTML = "&nbsp;"+response.results[0].cost_in_credits+"Credits";
-          var crew = document.getElementById("crew").innerHTML = "&nbsp;"+response.results[0].crew;
-          var hyperdrive = document.getElementById("hyperdrive").innerHTML ="&nbsp;"+ response.results[0].hyperdrive_rating;
+          document.getElementById("error2").innerHTML = "";
+          document.getElementById("model").innerHTML = "&nbsp;"+response.results[0].model;
+          document.getElementById("manufacturer").innerHTML = "&nbsp;"+response.results[0].manufacturer;
+          document.getElementById("cost").innerHTML = "&nbsp;"+response.results[0].cost_in_credits+"Credits";
+          document.getElementById("crew").innerHTML = "&nbsp;"+response.results[0].crew;
+          document.getElementById("hyperdrive").innerHTML ="&nbsp;"+ response.results[0].hyperdrive_rating;
         }
         
         /* Inserts selected starship detals into index.html */
