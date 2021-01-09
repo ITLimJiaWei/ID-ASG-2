@@ -52,8 +52,14 @@ Since SWiki's main goal is to provide information about Star Wars i implemented 
 <h2>Testing</h2>
 Testing is very important in programming and is especially imperative in front web development because any bugs will be extremely obvious and annoying to any user visiting the website.
 
-<h3>Online Validators</h3>
+<h3>Online Validators Used</h3>
 
+* https://validator.w3.org/
+* https://jigsaw.w3.org/css-validator/
+* https://validator.w3.org/checklink
+* https://color.a11y.com/Contrast/
+* https://typosaur.us/
+* https://rushax.com/tools/alt-tag-checker/
 
 
 
