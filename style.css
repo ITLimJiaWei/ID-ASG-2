@@ -264,6 +264,20 @@
     flex-direction:row;
 }
 
+.moff-gideon-card {
+    max-width:900px;
+    margin-left:80px;
+}
+
+.ahsoka-accordion,
+.bo-katan-accordion,
+.fennec-accordion {
+    background-color:rgb(61, 60, 60); 
+    color:white;
+    max-width:250px;
+    
+}
+
 /* END of Mandalorian Page CSS */
 
 /* START of Video Games Page CSS */
@@ -615,9 +629,27 @@
     .mandalorian-intro {
         font-size:18px;
     }
-    .mandalorian-flexbox2 {
+    .mandalorian-flexbox2,
+    .mandalorian-flexbox3 {
         flex-direction:column;
     }
+
+    .moff-gideon-card {
+        margin-right:50px;
+        margin-left:50px;
+    }
+
+    .mandalorian-accordion {
+        margin-left:50px;
+        margin-right:50px;
+    }
+
+    .ahsoka-accordion,
+    .bo-katan-accordion,
+    .fennec-accordion {
+        min-width:400px;
+    }
+
     
     /* END of The Mandalorian CSS Mobile Optimizations */
 
