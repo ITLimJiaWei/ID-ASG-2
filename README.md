@@ -6,7 +6,7 @@ ID: 10204971J<br>
 Website URL: https://itlimjiawei.github.io/Repository-2-/index.html<br>
 
 <h2>DISCLAIMER</h2>
-The certificate for SWAPI(https://swapi.dev/)'s website expired on 10th January 2021 and as a result all SWiki's Search Functions are no longer working due to ERR_CERT_DATE_INVALID error. However, these search functions were thoroughly tested and worked before the 10th of January 2021. 
+The certificate for SWAPI(https://swapi.dev/) 's website expired on 10th January 2021 and as a result all SWiki's Search Functions are no longer working due to ERR_CERT_DATE_INVALID error. However, these search functions were thoroughly tested and worked before the 10th of January 2021. 
 
 This project is a Star Wars themed wiki website. It includes a home page, films page, video games page and 3 TV Series pages. The website allows anyone to find out information about the events and characters in the Star Wars Universe. 
 
