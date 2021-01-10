@@ -4,10 +4,7 @@ Name: Lim Jia Wei<br>
 Class: P01<br>
 ID: 10204971J<br>
 Website URL: https://itlimjiawei.github.io/Repository-2-/index.html<br>
-
-<h2>DISCLAIMER</h2>
-The certificate for SWAPI(https://swapi.dev/) 's website expired on 10th January 2021 and as a result all SWiki's Search Functions are no longer working due to ERR_CERT_DATE_INVALID error. However, these search functions were thoroughly tested and worked before the 10th of January 2021. 
-
+ 
 This project is a Star Wars themed wiki website. It includes a home page, films page, video games page and 3 TV Series pages. The website allows anyone to find out information about the events and characters in the Star Wars Universe. 
 
 <h2>Update Table</h2>
@@ -91,7 +88,7 @@ All code was run through all the validators found below and any errors found wer
 2. SWAPI seems to not contain newer characters such as "Rey" or "Din Djarin" as they are relatively new to the Star Wars Universe.
 3. Search Functions were tested to work but may have inconsistent delays from pressing "Submit" to the information appearing.
 4. Bootstrap vertical cards may not be completely responsive in specifc resolutions and aspect ratios.
-5. The certificate for SWAPI(https://swapi.dev/)'s website expired on 10th January 2021 and as a result all SWiki's Search Functions are no longer working due to ERR_CERT_DATE_INVALID error. However, these search functions were thoroughly tested and worked before the 10th of January 2021. 
+5. The certificate for SWAPI(https://swapi.dev/)'s website expired on 10th January 2021. This could cause SWiki's Search Functions to not work. Though it has been fixed by using https://swapi.py4e.com/ instead of https://swapi.dev/ .
 
 
 
