@@ -135,8 +135,8 @@ All code was run through all the validators found below and any errors found wer
 
 <h2>Links</h2>
 
-Github Site Link: https://itlimjiawei.github.io/Repository-2-/
-Github Repostory Link: https://github.com/ITLimJiaWei/Repository-2-
+* Github Site Link: https://itlimjiawei.github.io/Repository-2-/
+* Github Repostory Link: https://github.com/ITLimJiaWei/Repository-2-
 
 <h2>Acknowledgements</h2>
 
