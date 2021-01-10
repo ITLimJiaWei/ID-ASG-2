@@ -98,8 +98,7 @@ function getspecies(input) {     /* Getspecies function uses SWAPI to retrieve s
           };
           
           $.ajax(settings).done(function (response2) {
-            console.log(response2);
-  
+            
             document.getElementById("species-homeworld").innerHTML = "&nbsp;"+ response2.name;
             /* Inserts homeworld/planet into game.html */
           });
@@ -152,7 +151,7 @@ function getspecies_wookie(input) {     /* getspecies_wookie function uses SWAPI
         };
         
         $.ajax(settings).done(function (response_wookie) {
-          console.log(response_wookie);
+         
           document.getElementById("error3").innerHTML = "";
           document.getElementById("species-name").innerHTML = "&nbsp;" + response_wookie.whrascwo;
           document.getElementById("species-height").innerHTML = "&nbsp;" + response_wookie.rahoworcrarrwo_acwoahrracao+"cm";
@@ -169,7 +168,7 @@ function getspecies_wookie(input) {     /* getspecies_wookie function uses SWAPI
           };
           
           $.ajax(settings).done(function (response_homeworld) {
-            console.log(response_homeworld);
+            
             document.getElementById("species-homeworld").innerHTML = "&nbsp;" + response_homeworld.name;
           });
         });
@@ -226,7 +225,7 @@ function getplanet_wookie(input) {     /* getplanet_wookie function uses SWAPI t
         };
         
         $.ajax(settings).done(function (response_wookie) {
-          console.log(response_wookie);
+          
           
           document.getElementById("planet-name").innerHTML = "&nbsp;" + response_wookie.whrascwo;
           document.getElementById("planet-climate").innerHTML = "&nbsp;" + response_wookie.oaanahscraaowo;

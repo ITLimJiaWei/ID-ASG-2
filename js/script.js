@@ -156,7 +156,7 @@ function getpeople_wookie(input) {     /* Getpeople_wookie function uses SWAPI t
         };
         
         $.ajax(settings).done(function (response_wookie) {
-          console.log(response_wookie);
+          
           
           document.getElementById("name").innerHTML = "&nbsp;" + response_wookie.whrascwo;
           document.getElementById("height").innerHTML = "&nbsp;" + response_wookie.acwoahrracao+"cm";
@@ -173,7 +173,7 @@ function getpeople_wookie(input) {     /* Getpeople_wookie function uses SWAPI t
           };
           
           $.ajax(settings).done(function (response_homeworld) {
-            console.log(response_homeworld);
+            
             document.getElementById("homeworld").innerHTML = "&nbsp;" + response_homeworld.name;
           });
         });
@@ -229,7 +229,7 @@ function getstarship_wookie(input) {     /* getstarship_wookie function uses SWA
         };
         
         $.ajax(settings).done(function (response_wookie) {
-          console.log(response_wookie);
+          
           
           document.getElementById("model").innerHTML = "&nbsp;" + response_wookie.scoowawoan;
           document.getElementById("manufacturer").innerHTML = "&nbsp;" + response_wookie.scrawhhuwwraoaaohurcworc;
