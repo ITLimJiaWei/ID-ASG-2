@@ -142,6 +142,7 @@ All code was run through all the validators found below and any errors found wer
 
 * Github Site Link: https://itlimjiawei.github.io/Repository-2-/
 * Github Repostory Link: https://github.com/ITLimJiaWei/Repository-2-
+* ASG2 Pitch Link: https://drive.google.com/file/d/1jA8Wo_xs-mk9cdDEMv12PwlXGCNmXTbO/view?usp=sharing (File was too large to upload)
 
 <h2>Acknowledgements</h2>
 
