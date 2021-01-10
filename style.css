@@ -227,7 +227,7 @@
 .mandalorian-flexbox1 {
     display:flex;
     flex-direction:row-reverse;
-    margin-right:30px;
+    margin-right:200px;
 }
 
 .mandalorian-flexbox1-inner {
@@ -626,6 +626,7 @@
 
     .mandalorian-flexbox1 {
         flex-direction:column;
+        
         
     }
     .mandalorian-video {
