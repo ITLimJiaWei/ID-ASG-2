@@ -21,7 +21,7 @@ function button3() {
 function getplanet(input) {       /* Getplanet function uses SWAPI to retrieve planet details */
     
     var settings = {
-        "url": "https://swapi.dev/api/planets/?search="+input,
+        "url": "https://swapi.py4e.com/api/planets/?search="+input,
         "method": "GET",
         "timeout": 0,
       };
@@ -70,7 +70,7 @@ function button4() {
 function getspecies(input) {     /* Getspecies function uses SWAPI to retrieve species details */
     
     var settings = {
-        "url": "https://swapi.dev/api/species/?search="+input,
+        "url": "https://swapi.py4e.com/api/species/?search="+input,
         "method": "GET",
         "timeout": 0,
       };
@@ -129,7 +129,7 @@ function button_wookie3() {
 function getspecies_wookie(input) {     /* getspecies_wookie function uses SWAPI to retrieve character details */
     
   var settings = {
-      "url": "https://swapi.dev/api/species/?search="+input,
+      "url": "https://swapi.py4e.com/api/species/?search="+input,
       "method": "GET",
       "timeout": 0,
     };
@@ -203,7 +203,7 @@ function button_wookie4() {
 function getplanet_wookie(input) {     /* getplanet_wookie function uses SWAPI to retrieve character details */
     
   var settings = {
-      "url": "https://swapi.dev/api/planets/?search="+input,
+      "url": "https://swapi.py4e.com/api/planets/?search="+input,
       "method": "GET",
       "timeout": 0,
     };

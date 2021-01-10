@@ -22,7 +22,7 @@ function button() {
 function getpeople(input) {     /* Getpeople function uses SWAPI to retrieve character details */
     
     var settings = {
-        "url": "https://swapi.dev/api/people/?search="+input,
+        "url": "https://swapi.py4e.com/api/people/?search="+input,
         "method": "GET",
         "timeout": 0,
       };
@@ -85,7 +85,7 @@ function button2() {
 function getstarship(input) {  /* Getstarship function uses SWAPI to retrieve starship details */
     
     var settings = {      
-        "url": "https://swapi.dev/api/starships/?search="+input,
+        "url": "https://swapi.py4e.com/api/starships/?search="+input,
         "method": "GET",
         "timeout": 0,
       };
@@ -134,7 +134,7 @@ function button_wookie() {
 function getpeople_wookie(input) {     /* Getpeople_wookie function uses SWAPI to retrieve character details */
     
   var settings = {
-      "url": "https://swapi.dev/api/people/?search="+input,
+      "url": "https://swapi.py4e.com/api/people/?search="+input,
       "method": "GET",
       "timeout": 0,
     };
@@ -207,7 +207,7 @@ function button_wookie2() {
 function getstarship_wookie(input) {     /* getstarship_wookie function uses SWAPI to retrieve character details */
     
   var settings = {
-      "url": "https://swapi.dev/api/starships/?search="+input,
+      "url": "https://swapi.py4e.com/api/starships/?search="+input,
       "method": "GET",
       "timeout": 0,
     };
